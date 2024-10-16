@@ -13,6 +13,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="script.js">
 
 
 
@@ -26,7 +27,7 @@
   <style></style>
 </head>
 
-<body>
+<body class="page">
 
   <nav class="navbar " aria-label="offcanvas navbar">
     <div class="container-fluid">
@@ -50,6 +51,8 @@
             <li class="nav-item">
               <a class="nav-link  active" href="txt.html">txt 文字樣式</a>
             </li>
+            <li><a class="nav-link" href="color.html">Color</a></li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -75,12 +78,198 @@
 
   <header class="header">
     <p>TXT 文字樣式</p>
-
   </header>
 
 
 
   <div class="container">
+    <div class="row">
+      <div class="col-sm-12  title-01">
+        <span class="txt-20-B">字體樣式</span>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="txt-16">Google Font提供的字體、
+          <a href="https://fonts.google.com/noto/specimen/Noto+Sans+TC?lang=yue_Hant" target="_blank">Noto Sans
+            Traditional Chinese。</a>
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <p class="txt-16">Noto Sans Traditional Chinese</p>
+        <p class="txt-16-B">Noto Sans Traditional Chinese</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 title-01">
+        <span class="txt-20-B ">字體範例</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p class=" txt-8">8px 文字範例</p>
+        <p class=" txt-8-B">8px 文字範例</p>
+        <p class=" txt-12">12px 文字範例</p>
+        <p class=" txt-12-B">12px 文字範例</p>
+        <p class=" txt-16">16px 文字範例</p>
+        <p class=" txt-16-B">16px 文字範例</p>
+        <p class=" txt-20">20px 文字範例</p>
+        <p class=" txt-20-B">20px 文字範例</p>
+        <p class=" txt-24">24px 文字範例</p>
+        <p class=" txt-24-B">24px 文字範例</p>
+        <p class=" txt-28">28px 文字範例</p>
+        <p class=" txt-28-B">28px 文字範例</p>
+        <p class=" txt-32">32px 文字範例</p>
+        <p class=" txt-32-B">32px 文字範例</p>
+        <p class=" txt-40">40px 文字範例</p>
+        <p class=" txt-40-B">40px 文字範例</p>
+      </div>
+
+      <div class="col-sm-6">
+        <p class="cdo text-container ">
+
+
+          // 變數定義 <br>
+          $border-style: solid; <br>
+          $border-width: 0px; <br>
+          $padding: 0px; <br>
+          $display: flex; <br>
+          $align-items: center; <br>
+          $justify-content: center; <br>
+          $margin: 2px 0; <br>
+          $line-height: 1.5; <br>
+          $default-font-size: 16px; <br>
+          $font-family: "NotoSansTc-Regular", sans-serif; <br>
+          $color: #333333; <br>
+          <br>
+          // 混合，用於生成文字樣式 <br>
+          @mixin text-style($font-size: $default-font-size, $font-weight: normal) { <br>
+          border-style: $border-style; <br>
+          border-width: $border-width; <br>
+          font-size: $font-size; <br>
+          font-weight: $font-weight; <br>
+          padding: $padding; <br>
+          // display: $display; <br>
+          // align-items: $align-items; <br>
+          // justify-content: $justify-content; <br>
+          margin: $margin; <br>
+          line-height: $line-height; <br>
+          font-family: $font-family; <br>
+          color: $color; <br>
+          } <br>
+          <br>
+          // 具體的樣式 <br>
+          .txt-8 { <br>
+          @include text-style(8px); <br>
+          } <br>
+          <br>
+          .txt-8-B { <br>
+          @include text-style(8px, bold); <br>
+          } <br>
+          <br>
+          .txt-12 { <br>
+          @include text-style(12px); <br>
+          } <br>
+          <br>
+          .txt-12-B { <br>
+          @include text-style(12px, bold); <br>
+          } <br>
+          <br>
+          .txt-16 { <br>
+          @include text-style(16px); <br>
+          } <br>
+          <br>
+          .txt-16-B { <br>
+          @include text-style(16px, bold); <br>
+          } <br>
+          <br>
+          <br>
+          .txt-20 { <br>
+          @include text-style(20px); <br>
+          } <br>
+          <br>
+          .txt-20-B { <br>
+          @include text-style(20px, bold); <br>
+          } <br>
+          <br>
+          <br>
+          .txt-24 { <br>
+          @include text-style(24px); <br>
+          } <br>
+          <br>
+          .txt-24-B { <br>
+          @include text-style(24px, bold); <br>
+          } <br>
+          <br>
+          .txt-28 { <br>
+          @include text-style(28px); <br>
+          } <br>
+          <br>
+          .txt-28-B { <br>
+          @include text-style(28px, bold); <br>
+          } <br>
+          <br>
+          <br>
+          <br>
+          .txt-32 { <br>
+          @include text-style(32px); <br>
+          } <br>
+          <br>
+          .txt-32-B { <br>
+          @include text-style(32px, bold); <br>
+          } <br>
+          <br>
+          <br>
+
+
+          .txt-40 { <br>
+          @include text-style(40px); <br>
+          } <br>
+          <br>
+          .txt-40-B { <br>
+          @include text-style(40px, bold); <br>
+          } <br>
+          <br>
+          <br>
+          // 沒有指定字體大小時，默認使用 16px <br>
+          <br>
+          .txt-default { <br>
+          @include text-style(); <br>
+          } <br>
+          <br>
+
+
+          //樣式 <br>
+          <br>
+          .title-01 { <br>
+          padding: 20px 0 0 0; <br>
+          } <br>
+          <br>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+
+  </footer>
+
+  <!-- <div class="container">
     <div class="row">
       <div class="col-md-3 ">
 
@@ -363,7 +552,7 @@
 
 
     </div>
-  </div>
+  </div> -->
 </body>
 
 </html>

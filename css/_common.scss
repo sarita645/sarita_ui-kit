@@ -20,6 +20,27 @@
 
 
 
+.navbar {
+  background-color: #7F8B75;
+}
+
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #7F8B75;
+
+}
+
+/* 其他頁面有margin-top */
+.page .footer {
+  margin-top: 80px;
+}
+
+/* 首頁不需要margin-top */
+.home .footer {
+  margin-top: 0;
+}
 
 
 

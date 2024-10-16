@@ -1,58 +1,196 @@
-.txt-8 {
-  border-style: solid;
-  border-width: 0px;
-  font-size: 8px;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px 0;
-  line-height: 1.5;
+// .txt-8 {
+//   border-style: solid;
+//   border-width: 0px;
+//   font-size: 8px;
+//   padding: 0px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 2px 0;
+//   line-height: 1.5;
 
+// }
+
+
+
+
+
+// .txt-8-B {
+//   border-style: solid;
+//   border-width: 0px;
+//   font-size: 8px;
+//   font-weight: bold;
+//   padding: 0px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 2px 0;
+//   line-height: 1.5;
+// }
+
+
+// .txt-10 {
+//   border-style: solid;
+//   border-width: 0px;
+//   font-size: 10px;
+//   padding: 0px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 2px 0;
+//   line-height: 1.5;
+
+// }
+
+// .txt-10-B {
+//   border-style: solid;
+//   border-width: 0px;
+//   font-size: 10px;
+//   font-weight: bold;
+//   padding: 0px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 2px 0;
+//   line-height: 1.5;
+
+// }
+
+
+
+
+// 變數定義
+$border-style: solid;
+$border-width: 0px;
+$padding: 0px;
+$display: flex;
+$align-items: center;
+$justify-content: center;
+$margin: 2px 0;
+$line-height: 1.5;
+$default-font-size: 16px;
+$font-family: "NotoSansTc-Regular", sans-serif;
+$color: #333333;
+
+// 混合，用於生成文字樣式
+@mixin text-style($font-size: $default-font-size, $font-weight: normal) {
+  border-style: $border-style;
+  border-width: $border-width;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  padding: $padding;
+  // display: $display;
+  // align-items: $align-items;
+  // justify-content: $justify-content;
+  margin: $margin;
+  line-height: $line-height;
+  font-family: $font-family;
+  color: $color;
 }
 
-
-
-
-
+// 具體的樣式
+.txt-8 {
+  @include text-style(8px);
+}
 
 .txt-8-B {
-  border-style: solid;
-  border-width: 0px;
+  @include text-style(8px, bold);
+}
+
+.txt-12 {
+  @include text-style(12px);
+}
+
+.txt-12-B {
+  @include text-style(12px, bold);
+}
+
+.txt-16 {
+  @include text-style(16px);
+}
+
+.txt-16-B {
+  @include text-style(16px, bold);
+}
+
+
+.txt-20 {
+  @include text-style(20px);
+}
+
+.txt-20-B {
+  @include text-style(20px, bold);
+}
+
+
+.txt-24 {
+  @include text-style(24px);
+}
+
+.txt-24-B {
+  @include text-style(24px, bold);
+}
+
+
+.txt-28 {
+  @include text-style(28px);
+}
+
+.txt-28-B {
+  @include text-style(28px, bold);
+}
+
+
+
+.txt-32 {
+  @include text-style(32px);
+}
+
+.txt-32-B {
+  @include text-style(32px, bold);
+}
+
+
+
+
+.txt-40 {
+  @include text-style(40px);
+}
+
+.txt-40-B {
+  @include text-style(40px, bold);
+}
+
+
+// 沒有指定字體大小時，默認使用 16px
+
+.txt-default {
+  @include text-style();
+}
+
+
+
+//------------------------樣式
+
+.title-01 {
+  padding: 20px 0 0 0;
+}
+
+
+.cdo {
   font-size: 8px;
-  font-weight: bold;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px 0;
-  line-height: 1.5;
 }
 
 
-.txt-10 {
-  border-style: solid;
-  border-width: 0px;
-  font-size: 10px;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px 0;
-  line-height: 1.5;
 
-}
+.text-container {
+  width: 100%;
+  max-height: 560px;
+  overflow-y: auto;
+  /* 允許垂直滾動 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
 
-.txt-10-B {
-  border-style: solid;
-  border-width: 0px;
-  font-size: 10px;
-  font-weight: bold;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px 0;
-  line-height: 1.5;
 
 }

@@ -3,12 +3,12 @@
   border-style: solid;
   border-width: 0px;
   font-size: 8px;
+  font-weight: normal;
   padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 2px 0;
   line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
 }
 
 .txt-8-B {
@@ -17,59 +17,215 @@
   font-size: 8px;
   font-weight: bold;
   padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 2px 0;
   line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
 }
 
-.txt-10 {
+.txt-12 {
   border-style: solid;
   border-width: 0px;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: normal;
   padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 2px 0;
   line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
 }
 
-.txt-10-B {
+.txt-12-B {
   border-style: solid;
   border-width: 0px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 2px 0;
   line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
 }
 
-.index {
-  background-image: url(../img/bg-01.png);
-  /* 背景圖片不隨滾動而移動 */
-  background-attachment: fixed;
-  /* 背景圖片對齊到畫面的底部中心 */
-  background-position: center bottom;
-  /* 背景圖片的大小，這裡設置成覆蓋整個背景 */
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* 其他樣式 */
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 240px;
+.txt-16 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
 }
+
+.txt-16-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-20 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-20-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-24 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-24-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-28 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 28px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-28-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-32 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 32px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-32-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-40 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 40px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-40-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-default {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.title-01 {
+  padding: 20px 0 0 0;
+}
+
+.cdo {
+  font-size: 8px;
+}
+
+.text-container {
+  width: 100%;
+  max-height: 560px;
+  overflow-y: auto;
+  /* 允許垂直滾動 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
 .index .bg-txt {
   padding: 40px 0 0 0;
 }
 .index .bg-txt p {
   text-align: center;
-  font-size: 30px;
 }
 .index .bg-img {
   display: flex;
@@ -82,6 +238,16 @@
   background-image: url(../img/bg-02.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+.index .ba-img-01 {
+  background-image: url(../img/bg-01.png);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 240px;
 }
 
 .header {
@@ -99,6 +265,26 @@
   font-weight: revert;
   letter-spacing: 8px;
   color: #7F8B75;
+}
+
+.navbar {
+  background-color: #7F8B75;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #7F8B75;
+}
+
+/* 其他頁面有margin-top */
+.page .footer {
+  margin-top: 80px;
+}
+
+/* 首頁不需要margin-top */
+.home .footer {
+  margin-top: 0;
 }
 
 .combination {
@@ -271,14 +457,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-p {
-  font-size: 16px;
-  font-family: "NotoSansTc-Regular", sans-serif;
-  color: #333333;
-}
-
-.navbar {
-  background-color: #7F8B75;
 }/*# sourceMappingURL=style.css.map */
