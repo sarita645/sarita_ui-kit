@@ -1,0 +1,114 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+/* 顏色樣式 */
+.blue-700 {
+  background-color: #1E40AF;
+}
+
+.blue-600 {
+  background-color: #2563EB;
+}
+
+.blue-1000 {
+  background-color: #1E3A8A;
+}
+
+.blue-50 {
+  background-color: #EFF6FF;
+}
+
+.lightblue-700 {
+  background-color: #0284C7;
+}
+
+.lightblue-600 {
+  background-color: #38BDF8;
+}
+
+.lightblue-1000 {
+  background-color: #0369A1;
+}
+
+.lightblue-50 {
+  background-color: #E0F2FE;
+}
+
+.green-700 {
+  background-color: #10B981;
+}
+
+.green-600 {
+  background-color: #059669;
+}
+
+.green-1000 {
+  background-color: #065F46;
+}
+
+.green-50 {
+  background-color: #D1FAE5;
+}
+
+.cyan-700 {
+  background-color: #0E7490;
+}
+
+.cyan-600 {
+  background-color: #06B6D4;
+}
+
+.cyan-1000 {
+  background-color: #0F766E;
+}
+
+.cyan-50 {
+  background-color: #E0F7FA;
+}
+
+.orange-700 {
+  background-color: #F97316;
+}
+
+.orange-600 {
+  background-color: #EA580C;
+}
+
+.orange-1000 {
+  background-color: #C2410C;
+}
+
+.orange-50 {
+  background-color: #FFF7ED;
+}
+
+.darkblue-700 {
+  background-color: #1E293B;
+}
+
+.darkblue-600 {
+  background-color: #334155;
+}
+
+.darkblue-400 {
+  background-color: #64748B;
+}
+
+.darkblue-50 {
+  background-color: #F1F5F9;
+}
