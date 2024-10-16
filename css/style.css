@@ -49,6 +49,41 @@
   line-height: 1.5;
 }
 
+.index {
+  background-image: url(../img/bg-01.png);
+  /* 背景圖片不隨滾動而移動 */
+  background-attachment: fixed;
+  /* 背景圖片對齊到畫面的底部中心 */
+  background-position: center bottom;
+  /* 背景圖片的大小，這裡設置成覆蓋整個背景 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* 其他樣式 */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 240px;
+}
+.index .bg-txt {
+  padding: 40px 0 0 0;
+}
+.index .bg-txt p {
+  text-align: center;
+  font-size: 30px;
+}
+.index .bg-img {
+  display: flex;
+  justify-content: center;
+  padding: 150px 0 0 0;
+}
+.index .bg-img .img {
+  width: 122px;
+  height: 364px;
+  background-image: url(../img/bg-02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .header {
   background-color: #ececec;
   width: 100%;
