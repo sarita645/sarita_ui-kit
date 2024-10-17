@@ -384,12 +384,16 @@ td {
   background-color: #F1F5F9;
 }
 
+.purple-500 {
+  background-color: #B65FB5;
+}
+
 .purple-700 {
   background-color: #A440A3;
 }
 
-.purple-500 {
-  background-color: #B65FB5;
+.purple-900 {
+  background-color: #752176;
 }
 
 .yellow-700 {
@@ -398,6 +402,18 @@ td {
 
 .yellow-500 {
   background-color: #CFB145;
+}
+
+.yellow-900 {
+  background-color: #927200;
+}
+
+.orange-700 {
+  background-color: #FB5B01;
+}
+
+.orange-800 {
+  background-color: #CC4A01;
 }
 
 .red-600 {
