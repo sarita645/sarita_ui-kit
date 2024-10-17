@@ -285,15 +285,15 @@ td {
 }
 /* 顏色樣式 */
 .blue-700 {
-  background-color: #1E40AF;
+  background-color: #235BAC;
 }
 
-.blue-600 {
-  background-color: #2563EB;
+.blue-500 {
+  background-color: #5B8AC8;
 }
 
 .blue-1000 {
-  background-color: #1E3A8A;
+  background-color: #113F82;
 }
 
 .blue-50 {
@@ -301,31 +301,35 @@ td {
 }
 
 .lightblue-700 {
-  background-color: #0284C7;
+  background-color: #1499DF;
 }
 
-.lightblue-600 {
-  background-color: #38BDF8;
+.lightblue-500 {
+  background-color: #58B6E7;
 }
 
 .lightblue-1000 {
-  background-color: #0369A1;
+  background-color: #0B6C9E;
 }
 
 .lightblue-50 {
-  background-color: #E0F2FE;
+  background-color: #E0EFF6;
 }
 
 .green-700 {
-  background-color: #10B981;
+  background-color: #259D63;
 }
 
-.green-600 {
-  background-color: #059669;
+.green-500 {
+  background-color: #65BA91;
+}
+
+.green-800 {
+  background-color: #1D8050;
 }
 
 .green-1000 {
-  background-color: #065F46;
+  background-color: #0C472A;
 }
 
 .green-50 {
@@ -333,15 +337,15 @@ td {
 }
 
 .cyan-700 {
-  background-color: #0E7490;
+  background-color: #008DA6;
 }
 
-.cyan-600 {
-  background-color: #06B6D4;
+.cyan-500 {
+  background-color: #4EB0C2;
 }
 
 .cyan-1000 {
-  background-color: #0F766E;
+  background-color: #006173;
 }
 
 .cyan-50 {
@@ -349,31 +353,31 @@ td {
 }
 
 .orange-700 {
-  background-color: #F97316;
+  background-color: #FB5B01;
 }
 
-.orange-600 {
-  background-color: #EA580C;
+.orange-500 {
+  background-color: #FC8C4C;
 }
 
 .orange-1000 {
-  background-color: #C2410C;
+  background-color: #6D2700;
 }
 
 .orange-50 {
-  background-color: #FFF7ED;
+  background-color: #FFEEE2;
+}
+
+.darkblue-1000 {
+  background-color: #052149;
 }
 
 .darkblue-700 {
-  background-color: #1E293B;
-}
-
-.darkblue-600 {
-  background-color: #334155;
+  background-color: #4F6481;
 }
 
 .darkblue-400 {
-  background-color: #64748B;
+  background-color: #99A7BA;
 }
 
 .darkblue-50 {
@@ -381,11 +385,11 @@ td {
 }
 
 .purple-700 {
-  background-color: #A313A0;
+  background-color: #A440A3;
 }
 
 .purple-500 {
-  background-color: #D03CD8;
+  background-color: #B65FB5;
 }
 
 .yellow-700 {
@@ -393,10 +397,18 @@ td {
 }
 
 .yellow-500 {
-  background-color: #E5B406;
+  background-color: #CFB145;
 }
 
-.color_ticket {
+.red-600 {
+  background-color: #EF2525;
+}
+
+.red-800 {
+  background-color: #CC0000;
+}
+
+.red-800 .color_ticket {
   display: flex;
   flex-direction: column;
   align-items: stretch;
