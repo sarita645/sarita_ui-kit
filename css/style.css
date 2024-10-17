@@ -207,6 +207,10 @@
   padding: 20px 0 0 0;
 }
 
+.title-02 {
+  padding: 40px 0 0 0;
+}
+
 .cdo {
   font-size: 8px;
 }
@@ -267,12 +271,18 @@ td {
 }
 
 .color-box {
-  width: 60px;
-  height: 60px;
+  width: 4rem;
+  height: 4rem;
   margin: 0 auto;
   border-radius: 6px;
 }
 
+@media (max-width: 768px) {
+  .color-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
 /* 顏色樣式 */
 .blue-700 {
   background-color: #1E40AF;
@@ -428,14 +438,6 @@ td {
 }
 .combination .row {
   display: flex;
-}
-.combination .title {
-  width: auto;
-  height: 40px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0 20px;
 }
 .combination .example {
   padding: 4px;
