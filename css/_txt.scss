@@ -71,6 +71,7 @@ $line-height: 1.5;
 $default-font-size: 16px;
 $font-family: "NotoSansTc-Regular", sans-serif;
 $color: #333333;
+$white-color: #FFFFFF; // 定義白色字體
 
 // 混合，用於生成文字樣式
 @mixin text-style($font-size: $default-font-size, $font-weight: normal) {
@@ -90,11 +91,11 @@ $color: #333333;
 
 // 具體的樣式
 .txt-8 {
-  @include text-style(8px);
+  @include text-style(0.5rem);
 }
 
 .txt-8-B {
-  @include text-style(8px, bold);
+  @include text-style(0.5rem, bold);
 }
 
 .txt-12 {
@@ -106,59 +107,59 @@ $color: #333333;
 }
 
 .txt-16 {
-  @include text-style(16px);
+  @include text-style(1rem);
 }
 
 .txt-16-B {
-  @include text-style(16px, bold);
+  @include text-style(1rem, bold);
 }
 
 
 .txt-20 {
-  @include text-style(20px);
+  @include text-style(1.25rem);
 }
 
 .txt-20-B {
-  @include text-style(20px, bold);
+  @include text-style(1.25rem, bold);
 }
 
 
 .txt-24 {
-  @include text-style(24px);
+  @include text-style(1.5rem);
 }
 
 .txt-24-B {
-  @include text-style(24px, bold);
+  @include text-style(1.5rem, bold);
 }
 
 
 .txt-28 {
-  @include text-style(28px);
+  @include text-style(1.8rem);
 }
 
 .txt-28-B {
-  @include text-style(28px, bold);
+  @include text-style(1.8rem, bold);
 }
 
 
 
 .txt-32 {
-  @include text-style(32px);
+  @include text-style(2rem);
 }
 
 .txt-32-B {
-  @include text-style(32px, bold);
+  @include text-style(2rem, bold);
 }
 
 
 
 
 .txt-40 {
-  @include text-style(40px);
+  @include text-style(3rem);
 }
 
 .txt-40-B {
-  @include text-style(40px, bold);
+  @include text-style(3rem, bold);
 }
 
 
@@ -192,5 +193,10 @@ $color: #333333;
   border: 1px solid #ccc;
   margin-bottom: 10px;
 
+
+}
+
+.txt-white {
+  color: $white-color;
 
 }
