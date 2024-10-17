@@ -207,3 +207,108 @@ td {
 
 
 }
+
+
+
+//-----------------
+.button-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.button-table th,
+.button-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+}
+
+.btn {
+  padding: 4px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.color-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.blue-default {
+  background-color: #1E73E8;
+  /* Blue-700 */
+  color: #FFFFFF;
+}
+
+.blue-hover {
+  background-color: #4A90E2;
+  /* Blue-500 */
+  color: #FFFFFF;
+}
+
+.blue-active {
+  background-color: #0B3D91;
+  /* Blue-1000 */
+  color: #FFFFFF;
+}
+
+.dark-blue-default {
+  background-color: #0B2545;
+  /* Dark Blue-1000 */
+  color: #FFFFFF;
+}
+
+.dark-blue-hover {
+  background-color: #3C5A73;
+  /* Dark Blue-700 */
+  color: #FFFFFF;
+}
+
+.dark-blue-active {
+  background-color: #7B98B1;
+  /* Dark Blue-400 */
+  color: #FFFFFF;
+}
+
+.cyan-default {
+  background-color: #0097A7;
+  /* Cyan-700 */
+  color: #FFFFFF;
+}
+
+.cyan-hover {
+  background-color: #00ACC1;
+  /* Cyan-500 */
+  color: #FFFFFF;
+}
+
+.cyan-active {
+  background-color: #00796B;
+  /* Cyan-1000 */
+  color: #FFFFFF;
+}
+
+span {
+  margin-right: 10px;
+  font-size: 14px;
+}
