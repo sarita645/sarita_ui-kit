@@ -268,16 +268,7 @@ td {
   vertical-align: top;
 }
 
-.btn {
-  padding: 8px 24px;
-  border: none;
-  border-radius: 5px;
-  font-size: clamp(0.6rem, 2vw, 1rem);
-  cursor: pointer;
-  margin-bottom: 10px;
-  transition: background-color 0.3s ease;
-  /* 平滑過渡 */
-}
+
 
 .color-info {
   display: flex;
@@ -376,7 +367,8 @@ span {
 
 
 
-//----- 範例按鈕
+//----- 範例按鈕。
+//------------------------------按鈕組合用這版下去改。
 /* 藍色按鈕的不同狀態 */
 .btn-blue {
   background-color: #235BAC;
@@ -395,6 +387,8 @@ span {
   /* active: Blue-1000 */
   color: #ffffff;
 }
+
+
 
 
 
