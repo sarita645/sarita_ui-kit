@@ -434,6 +434,30 @@ td {
   /* 实线边框 */
 }
 
+.grey-200 {
+  background-color: #CCCCCC;
+}
+
+.grey-400 {
+  background-color: #999999;
+}
+
+.grey-500 {
+  background-color: #7F7F7F;
+}
+
+.grey-600 {
+  background-color: #666666;
+}
+
+.grey-800 {
+  background-color: #333333;
+}
+
+.black {
+  background-color: #000000;
+}
+
 .color_ticket {
   display: flex;
   flex-direction: column;
