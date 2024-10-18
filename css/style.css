@@ -208,7 +208,7 @@
 }
 
 .title-02 {
-  padding: 40px 0 0 0;
+  padding: 60px 0 0 0;
 }
 
 .cdo {
@@ -424,7 +424,17 @@ td {
   background-color: #CC0000;
 }
 
-.red-800 .color_ticket {
+.white {
+  background-color: #ffffff;
+}
+
+.white-border {
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+  /* 实线边框 */
+}
+
+.color_ticket {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -437,7 +447,6 @@ td {
 .button-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
 }
 
 .button-table th,
@@ -455,18 +464,26 @@ td {
 }
 
 .btn {
-  padding: 4px 30px;
+  padding: 8px 24px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: clamp(0.6rem, 2vw, 1rem);
   cursor: pointer;
   margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  /* 平滑過渡 */
 }
 
 .color-info {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 5px;
+  flex-direction: column;
+}
+.color-info .color-info-top,
+.color-info .color-info-below {
+  display: flex;
+  margin: 2px 0;
 }
 
 .color {
@@ -478,7 +495,7 @@ td {
 }
 
 .blue-default {
-  background-color: #1E73E8;
+  background-color: #235BAC;
   /* Blue-700 */
   color: #FFFFFF;
 }
@@ -520,20 +537,84 @@ td {
 }
 
 .cyan-hover {
-  background-color: #00ACC1;
+  background-color: #ffffff;
   /* Cyan-500 */
-  color: #FFFFFF;
+  color: #00ACC1;
+  border: 1px solid #00ACC1;
+  /* 实线边框 */
 }
 
 .cyan-active {
-  background-color: #00796B;
+  background-color: #E0F7FA;
   /* Cyan-1000 */
-  color: #FFFFFF;
+  color: #00796B;
+  border: 1px solid #00796B;
+  /* 实线边框 */
 }
 
 span {
   margin-right: 10px;
   font-size: 14px;
+}
+
+/* 藍色按鈕的不同狀態 */
+.btn-blue {
+  background-color: #235BAC;
+  /* default: Blue-700 */
+  color: #ffffff;
+}
+
+.btn-blue:hover {
+  background-color: #5B8AC8;
+  /* hover: Blue-500 */
+  color: #ffffff;
+}
+
+.btn-blue:active {
+  background-color: #113F82;
+  /* active: Blue-1000 */
+  color: #ffffff;
+}
+
+.btn-darkblue {
+  background-color: #052149;
+  /* default: Blue-700 */
+  color: #ffffff;
+}
+
+.btn-darkblue:hover {
+  background-color: #4F6481;
+  /* hover: Blue-500 */
+  color: #ffffff;
+}
+
+.btn-darkblue:active {
+  background-color: #99A7BA;
+  /* active: Blue-1000 */
+  color: #ffffff;
+}
+
+.btn-cyan {
+  background-color: #008DA6;
+  /* default: Blue-700 */
+  color: #ffffff;
+  border: 1px solid rgba(0, 121, 107, 0);
+}
+
+.btn-cyan:hover {
+  background-color: #ffffff;
+  /* Cyan-500 */
+  color: #00ACC1;
+  border: 1px solid #00ACC1;
+  /* 实线边框 */
+}
+
+.btn-cyan:active {
+  background-color: #E0F7FA;
+  /* Cyan-1000 */
+  color: #00796B;
+  border: 1px solid #00796B;
+  /* 实线边框 */
 }
 
 .header {
@@ -592,6 +673,24 @@ span {
   padding: 10px;
   background-color: #F8F9FA;
   font-size: 10px;
+}
+
+.navbar-brand {
+  font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 /* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */

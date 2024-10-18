@@ -136,8 +136,6 @@ td {
 
 }
 
-
-
 .purple-900 {
   background-color: #752176;
 
@@ -187,9 +185,19 @@ td {
 
 
 
+.white {
+  background-color: #ffffff;
+}
+
+.white-border {
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+  /* 实线边框 */
+}
 
 
-.red-800 //--------
+
+//--------
 
 
 .color_ticket {
@@ -214,7 +222,7 @@ td {
 .button-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
+  // margin: 20px 0;
 }
 
 .button-table th,
@@ -232,18 +240,30 @@ td {
 }
 
 .btn {
-  padding: 4px 30px;
+  padding: 8px 24px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: clamp(0.6rem, 2vw, 1rem);
   cursor: pointer;
   margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  /* 平滑過渡 */
 }
 
 .color-info {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 5px;
+  flex-direction: column;
+
+  .color-info-top,
+  .color-info-below {
+    display: flex;
+    margin: 2px 0;
+  }
+
+
+
 }
 
 .color {
@@ -255,7 +275,7 @@ td {
 }
 
 .blue-default {
-  background-color: #1E73E8;
+  background-color: #235BAC;
   /* Blue-700 */
   color: #FFFFFF;
 }
@@ -297,18 +317,99 @@ td {
 }
 
 .cyan-hover {
-  background-color: #00ACC1;
+  background-color: #ffffff;
   /* Cyan-500 */
-  color: #FFFFFF;
+  color: #00ACC1;
+  border: 1px solid #00ACC1;
+  /* 实线边框 */
 }
 
 .cyan-active {
-  background-color: #00796B;
+  background-color: #E0F7FA;
   /* Cyan-1000 */
-  color: #FFFFFF;
+  color: #00796B;
+  border: 1px solid #00796B;
+  /* 实线边框 */
 }
 
 span {
   margin-right: 10px;
   font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+//----- 範例按鈕
+/* 藍色按鈕的不同狀態 */
+.btn-blue {
+  background-color: #235BAC;
+  /* default: Blue-700 */
+  color: #ffffff;
+}
+
+.btn-blue:hover {
+  background-color: #5B8AC8;
+  /* hover: Blue-500 */
+  color: #ffffff;
+}
+
+.btn-blue:active {
+  background-color: #113F82;
+  /* active: Blue-1000 */
+  color: #ffffff;
+}
+
+
+
+
+.btn-darkblue {
+  background-color: #052149;
+  /* default: Blue-700 */
+  color: #ffffff;
+}
+
+.btn-darkblue:hover {
+  background-color: #4F6481;
+  /* hover: Blue-500 */
+  color: #ffffff;
+}
+
+.btn-darkblue:active {
+  background-color: #99A7BA;
+  /* active: Blue-1000 */
+  color: #ffffff;
+
+}
+
+
+
+.btn-cyan {
+  background-color: #008DA6;
+  /* default: Blue-700 */
+  color: #ffffff;
+  border: 1px solid #00796b00;
+}
+
+.btn-cyan:hover {
+  background-color: #ffffff;
+  /* Cyan-500 */
+  color: #00ACC1;
+  border: 1px solid #00ACC1;
+  /* 实线边框 */
+}
+
+.btn-cyan:active {
+  background-color: #E0F7FA;
+  /* Cyan-1000 */
+  color: #00796B;
+  border: 1px solid #00796B;
+  /* 实线边框 */
 }
