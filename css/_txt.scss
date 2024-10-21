@@ -94,6 +94,8 @@ $white-color: #FFFFFF; // 定義白色字體
   @include text-style(0.5rem);
 }
 
+
+
 .txt-8-B {
   @include text-style(0.5rem, bold);
 }
@@ -102,16 +104,34 @@ $white-color: #FFFFFF; // 定義白色字體
   @include text-style(12px);
 }
 
+.h6-N {
+  @extend .txt-12;
+}
+
 .txt-12-B {
   @include text-style(12px, bold);
 }
+
+.h6-B {
+  @extend .txt-12-B;
+}
+
+
 
 .txt-16 {
   @include text-style(1rem);
 }
 
+.h5-N {
+  @extend .txt-16;
+}
+
 .txt-16-B {
   @include text-style(1rem, bold);
+}
+
+.h3-B {
+  @extend .txt-16-B;
 }
 
 
@@ -119,8 +139,16 @@ $white-color: #FFFFFF; // 定義白色字體
   @include text-style(1.25rem);
 }
 
+.h4-N {
+  @extend .txt-20;
+}
+
 .txt-20-B {
   @include text-style(1.25rem, bold);
+}
+
+.h4-B {
+  @extend .txt-20-B;
 }
 
 
@@ -137,20 +165,46 @@ $white-color: #FFFFFF; // 定義白色字體
   @include text-style(1.8rem);
 }
 
+.h3-N {
+  @extend .txt-28;
+}
+
 .txt-28-B {
   @include text-style(1.8rem, bold);
 }
 
+.h2-B {
+  @extend .txt-28-B;
+}
 
 
 .txt-32 {
   @include text-style(2rem);
 }
 
+.h2-N {
+  @extend .txt-32;
+}
+
 .txt-32-B {
   @include text-style(2rem, bold);
 }
 
+.h2-B {
+  @extend .txt-32-B;
+}
+
+
+
+.txt-36 {
+  @include text-style(2rem);
+}
+
+
+
+.txt-36-B {
+  @include text-style(2rem, bold);
+}
 
 
 
@@ -158,8 +212,16 @@ $white-color: #FFFFFF; // 定義白色字體
   @include text-style(3rem);
 }
 
+.h1-N {
+  @extend .txt-40;
+}
+
 .txt-40-B {
   @include text-style(3rem, bold);
+}
+
+.h1-B {
+  @extend .txt-40-B;
 }
 
 
@@ -171,15 +233,127 @@ $white-color: #FFFFFF; // 定義白色字體
 
 
 
-//------------------------樣式
+//-----------------------------------
 
-.title-01 {
-  padding: 20px 0 0 0;
+
+// %heading {
+//   margin-top: 0; // 1
+//   margin-bottom: $headings-margin-bottom;
+//   font-family: $headings-font-family;
+//   font-style: $headings-font-style;
+//   font-weight: $headings-font-weight;
+//   line-height: $headings-line-height;
+//   color: var(--#{$prefix}heading-color);
+// }
+
+// h1 {
+//   @extend %heading;
+//   font-size: 3rem; // 修改為 3em
+// }
+
+// h2 {
+//   @extend %heading;
+//   font-size: 2rem; // 修改為 2rem
+// }
+
+// h3 {
+//   @extend %heading;
+//   font-size: 1.8rem; // 修改為 1.8rem
+// }
+
+// h4 {
+//   @extend %heading;
+//   font-size: 1.3rem; // 修改為 1.3rem
+// }
+
+// h5 {
+//   @extend %heading;
+//   font-size: 1rem; // 修改為 1rem
+// }
+
+// h6 {
+//   @extend %heading;
+//   font-size: 0.5rem; // 修改為 0.5rem
+// }
+
+
+
+
+
+
+
+
+h1 {
+  font-size: 40px;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 28px;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
 }
 
 
+
+
+//------------------------樣式
+
+.title-01 {
+  padding: 64px 0 16px 0;
+
+  span {
+    font-size: 28px;
+    font-weight: bold;
+
+  }
+
+  p {
+    font-size: 16px;
+
+  }
+}
+
+
+
+
 .title-02 {
-  padding: 60px 0 0 0;
+  padding: 40px 0 16px 0;
+  display: flex;
+
+  flex-direction: column;
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 16px 0;
+  }
+
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+
+
+.title-03 {
+  padding: 24px 0 16px 0;
 }
 
 
@@ -205,4 +379,82 @@ $white-color: #FFFFFF; // 定義白色字體
 .txt-white {
   color: $white-color;
 
+}
+
+
+//---------------------------------
+
+
+.heading-table,
+.level-table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th,
+  td {
+    border: 1px solid #dddddd;
+    /* text-align: left; */
+    padding: 8px;
+  }
+}
+
+
+
+.spacing-container {
+  margin: 20px;
+
+
+  .spacing-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .spacing-row span {
+    flex: 1;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .box {
+    background-color: #d3d3d3;
+  }
+
+  .box-4 {
+    width: 4px;
+    height: 4px;
+  }
+
+  .box-8 {
+    width: 8px;
+    height: 8px;
+  }
+
+  .box-16 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .box-24 {
+    width: 24px;
+    height: 24px;
+  }
+
+  .box-40 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .box-64 {
+    width: 64px;
+    height: 64px;
+  }
+
+  .box-104 {
+    width: 104px;
+    height: 104px;
+  }
 }

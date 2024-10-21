@@ -23,7 +23,7 @@
   color: #333333;
 }
 
-.txt-12 {
+.txt-12, .h6-N {
   border-style: solid;
   border-width: 0px;
   font-size: 12px;
@@ -35,7 +35,7 @@
   color: #333333;
 }
 
-.txt-12-B {
+.txt-12-B, .h6-B {
   border-style: solid;
   border-width: 0px;
   font-size: 12px;
@@ -47,7 +47,7 @@
   color: #333333;
 }
 
-.txt-16 {
+.txt-16, .h5-N {
   border-style: solid;
   border-width: 0px;
   font-size: 1rem;
@@ -59,7 +59,7 @@
   color: #333333;
 }
 
-.txt-16-B {
+.txt-16-B, .h3-B {
   border-style: solid;
   border-width: 0px;
   font-size: 1rem;
@@ -71,7 +71,7 @@
   color: #333333;
 }
 
-.txt-20 {
+.txt-20, .h4-N {
   border-style: solid;
   border-width: 0px;
   font-size: 1.25rem;
@@ -83,7 +83,7 @@
   color: #333333;
 }
 
-.txt-20-B {
+.txt-20-B, .h4-B {
   border-style: solid;
   border-width: 0px;
   font-size: 1.25rem;
@@ -119,7 +119,7 @@
   color: #333333;
 }
 
-.txt-28 {
+.txt-28, .h3-N {
   border-style: solid;
   border-width: 0px;
   font-size: 1.8rem;
@@ -131,7 +131,7 @@
   color: #333333;
 }
 
-.txt-28-B {
+.txt-28-B, .h2-B {
   border-style: solid;
   border-width: 0px;
   font-size: 1.8rem;
@@ -143,7 +143,7 @@
   color: #333333;
 }
 
-.txt-32 {
+.txt-32, .h2-N {
   border-style: solid;
   border-width: 0px;
   font-size: 2rem;
@@ -155,7 +155,7 @@
   color: #333333;
 }
 
-.txt-32-B {
+.txt-32-B, .h2-B {
   border-style: solid;
   border-width: 0px;
   font-size: 2rem;
@@ -167,7 +167,31 @@
   color: #333333;
 }
 
-.txt-40 {
+.txt-36 {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-36-B {
+  border-style: solid;
+  border-width: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0;
+  line-height: 1.5;
+  font-family: "NotoSansTc-Regular", sans-serif;
+  color: #333333;
+}
+
+.txt-40, .h1-N {
   border-style: solid;
   border-width: 0px;
   font-size: 3rem;
@@ -179,7 +203,7 @@
   color: #333333;
 }
 
-.txt-40-B {
+.txt-40-B, .h1-B {
   border-style: solid;
   border-width: 0px;
   font-size: 3rem;
@@ -203,12 +227,59 @@
   color: #333333;
 }
 
+h1 {
+  font-size: 40px;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 28px;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
 .title-01 {
-  padding: 20px 0 0 0;
+  padding: 64px 0 16px 0;
+}
+.title-01 span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.title-01 p {
+  font-size: 16px;
 }
 
 .title-02 {
-  padding: 60px 0 0 0;
+  padding: 40px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+.title-02 span {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 16px 0;
+}
+.title-02 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.title-03 {
+  padding: 24px 0 16px 0;
 }
 
 .cdo {
@@ -227,6 +298,66 @@
 
 .txt-white {
   color: #FFFFFF;
+}
+
+.heading-table table,
+.level-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.heading-table th,
+.heading-table td,
+.level-table th,
+.level-table td {
+  border: 1px solid #dddddd;
+  /* text-align: left; */
+  padding: 8px;
+}
+
+.spacing-container {
+  margin: 20px;
+}
+.spacing-container .spacing-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.spacing-container .spacing-row span {
+  flex: 1;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.spacing-container .box {
+  background-color: #d3d3d3;
+}
+.spacing-container .box-4 {
+  width: 4px;
+  height: 4px;
+}
+.spacing-container .box-8 {
+  width: 8px;
+  height: 8px;
+}
+.spacing-container .box-16 {
+  width: 16px;
+  height: 16px;
+}
+.spacing-container .box-24 {
+  width: 24px;
+  height: 24px;
+}
+.spacing-container .box-40 {
+  width: 40px;
+  height: 40px;
+}
+.spacing-container .box-64 {
+  width: 64px;
+  height: 64px;
+}
+.spacing-container .box-104 {
+  width: 104px;
+  height: 104px;
 }
 
 .index .bg-txt {
@@ -774,7 +905,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 80px 0;
 }
 .header p {
   font-size: 20px;

@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>UI KIT</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -29,10 +29,10 @@
 
 <body class="page">
 
-  <nav class="navbar " aria-label="offcanvas navbar">
+  <nav class="navbar" aria-label="offcanvas navbar">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">UI KID</a>
@@ -46,21 +46,22 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  active" href="txt.html">txt 文字樣式</a>
+              <a class="nav-link" aria-current="page" href="txt.html">TXT 文字樣式與留白</a>
             </li>
             <li><a class="nav-link" href="color.html">Color</a></li>
-
+            <li><a class="nav-link" href="button.html">Button</a></li>
+            <li><a class="nav-link" href="corner.html">Corner</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Dropdown
+                素材
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="color.html">Icon</a></li>
+                <li><a class="dropdown-item" href="illustration.html">Illustration</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -77,7 +78,7 @@
 
 
   <header class="header">
-    <p>TXT 文字樣式</p>
+    <p>TXT 文字樣式與留白</p>
   </header>
 
 
@@ -85,7 +86,17 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12  title-01">
-        <span class="txt-20-B">字體樣式</span>
+        <span>
+          關於字體
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12  title-02">
+        <span>
+          字體樣式
+        </span>
       </div>
     </div>
 
@@ -104,160 +115,402 @@
 
     </div>
 
+
     <div class="row">
-      <div class="col-sm-12 title-01">
-        <span class="txt-20-B ">字體範例</span>
+
+
+      <div class="row">
+        <div class="col-sm-12 title-02">
+          <span>
+            字體範例
+          </span>
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <p class=" txt-8">8px 文字範例</p>
+          <p class=" txt-8-B">8px 文字範例</p>
+          <p class=" txt-12">12px 文字範例</p>
+          <p class=" txt-12-B">12px 文字範例</p>
+          <p class=" txt-16">16px 文字範例</p>
+          <p class=" txt-16-B">16px 文字範例</p>
+          <p class=" txt-20">20px 文字範例</p>
+          <p class=" txt-20-B">20px 文字範例</p>
+          <p class=" txt-24">24px 文字範例</p>
+          <p class=" txt-24-B">24px 文字範例</p>
+          <p class=" txt-28">28px 文字範例</p>
+          <p class=" txt-28-B">28px 文字範例</p>
+          <p class=" txt-32">32px 文字範例</p>
+          <p class=" txt-32-B">32px 文字範例</p>
+          <p class=" txt-40">40px 文字範例</p>
+          <p class=" txt-40-B">40px 文字範例</p>
+        </div>
+
+        <div class="col-sm-6">
+          <p class="cdo text-container ">
+
+
+            // 變數定義 <br>
+            $border-style: solid; <br>
+            $border-width: 0px; <br>
+            $padding: 0px; <br>
+            $display: flex; <br>
+            $align-items: center; <br>
+            $justify-content: center; <br>
+            $margin: 2px 0; <br>
+            $line-height: 1.5; <br>
+            $default-font-size: 16px; <br>
+            $font-family: "NotoSansTc-Regular", sans-serif; <br>
+            $color: #333333; <br>
+            <br>
+            // 混合，用於生成文字樣式 <br>
+            @mixin text-style($font-size: $default-font-size, $font-weight: normal) { <br>
+            border-style: $border-style; <br>
+            border-width: $border-width; <br>
+            font-size: $font-size; <br>
+            font-weight: $font-weight; <br>
+            padding: $padding; <br>
+            // display: $display; <br>
+            // align-items: $align-items; <br>
+            // justify-content: $justify-content; <br>
+            margin: $margin; <br>
+            line-height: $line-height; <br>
+            font-family: $font-family; <br>
+            color: $color; <br>
+            } <br>
+            <br>
+            // 具體的樣式 <br>
+            .txt-8 { <br>
+            @include text-style(8px); <br>
+            } <br>
+            <br>
+            .txt-8-B { <br>
+            @include text-style(8px, bold); <br>
+            } <br>
+            <br>
+            .txt-12 { <br>
+            @include text-style(12px); <br>
+            } <br>
+            <br>
+            .txt-12-B { <br>
+            @include text-style(12px, bold); <br>
+            } <br>
+            <br>
+            .txt-16 { <br>
+            @include text-style(16px); <br>
+            } <br>
+            <br>
+            .txt-16-B { <br>
+            @include text-style(16px, bold); <br>
+            } <br>
+            <br>
+            <br>
+            .txt-20 { <br>
+            @include text-style(20px); <br>
+            } <br>
+            <br>
+            .txt-20-B { <br>
+            @include text-style(20px, bold); <br>
+            } <br>
+            <br>
+            <br>
+            .txt-24 { <br>
+            @include text-style(24px); <br>
+            } <br>
+            <br>
+            .txt-24-B { <br>
+            @include text-style(24px, bold); <br>
+            } <br>
+            <br>
+            .txt-28 { <br>
+            @include text-style(28px); <br>
+            } <br>
+            <br>
+            .txt-28-B { <br>
+            @include text-style(28px, bold); <br>
+            } <br>
+            <br>
+            <br>
+            <br>
+            .txt-32 { <br>
+            @include text-style(32px); <br>
+            } <br>
+            <br>
+            .txt-32-B { <br>
+            @include text-style(32px, bold); <br>
+            } <br>
+            <br>
+            <br>
+
+
+            .txt-40 { <br>
+            @include text-style(40px); <br>
+            } <br>
+            <br>
+            .txt-40-B { <br>
+            @include text-style(40px, bold); <br>
+            } <br>
+            <br>
+            <br>
+            // 沒有指定字體大小時，默認使用 16px <br>
+            <br>
+            .txt-default { <br>
+            @include text-style(); <br>
+            } <br>
+            <br>
+
+
+            //樣式 <br>
+            <br>
+            .title-01 { <br>
+            padding: 20px 0 0 0; <br>
+            } <br>
+            <br>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+
+        <div class="col-sm-12  title-02">
+          <span>
+            適用範例
+          </span>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <table class="level-table">
+              <thead>
+                <tr>
+                  <th>推薦使用等級</th>
+                  <th>範例</th>
+                  <th>備註</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>h1</p>
+                  </td>
+                  <td>
+                    <p class="h1-N">標題L</p>
+                  </td>
+                  <td>
+                    <p>40px; 3rem</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>h2</p>
+                  </td>
+                  <td>
+                    <p class="h2-N">標題M</p">
+                  </td>
+                  <td>
+                    <p>32px; 2rem</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>h3</p>
+                  </td>
+                  <td>
+                    <h3 class="h3-N">標題S</h3>
+                  </td>
+                  <td>
+                    <p>28px; 1.8rem</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>h4</p>
+                  </td>
+                  <td>
+                    <h4 class="h4-N">標題XS</h4>
+                  </td>
+                  <td>
+                    <p>20px; 1.3rem</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>h5</p>
+                  </td>
+                  <td>
+                    <h5 class="h5-N">標題XXS</h5>
+                  </td>
+                  <td>
+                    <p>16px; 1rem</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p>h6</p>
+                  </td>
+                  <td>
+                    <h5 class="h6-N">標題XXXS</h5>
+                  </td>
+                  <td>
+                    <p>8px; 0.5rem</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-sm-12  title-01">
+        <span>
+          關於留白與間距
+        </span>
+      </div>
+
+
+      <div class="col-sm-12  title-02">
+        <span>
+          標題與內文的間距
+        </span>
+        <p>標題若為H1 接續內文需距離24px</p>
+      </div>
+
     </div>
 
     <div class="row">
-      <div class="col-sm-6">
-        <p class=" txt-8">8px 文字範例</p>
-        <p class=" txt-8-B">8px 文字範例</p>
-        <p class=" txt-12">12px 文字範例</p>
-        <p class=" txt-12-B">12px 文字範例</p>
-        <p class=" txt-16">16px 文字範例</p>
-        <p class=" txt-16-B">16px 文字範例</p>
-        <p class=" txt-20">20px 文字範例</p>
-        <p class=" txt-20-B">20px 文字範例</p>
-        <p class=" txt-24">24px 文字範例</p>
-        <p class=" txt-24-B">24px 文字範例</p>
-        <p class=" txt-28">28px 文字範例</p>
-        <p class=" txt-28-B">28px 文字範例</p>
-        <p class=" txt-32">32px 文字範例</p>
-        <p class=" txt-32-B">32px 文字範例</p>
-        <p class=" txt-40">40px 文字範例</p>
-        <p class=" txt-40-B">40px 文字範例</p>
+      <div class="col-lg-6">
+        <table class="heading-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>標題</th>
+              <th>標題與內文之間</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>H1</td>
+              <td>64px</td>
+              <td>24px</td>
+            </tr>
+            <tr>
+              <td>H2</td>
+              <td>64px</td>
+              <td>24px</td>
+            </tr>
+            <tr>
+              <td>H3</td>
+              <td>40px</td>
+              <td>24px</td>
+            </tr>
+            <tr>
+              <td>H4</td>
+              <td>40px</td>
+              <td>16px</td>
+            </tr>
+            <tr>
+              <td>H5</td>
+              <td>40px</td>
+              <td>16px</td>
+            </tr>
+            <tr>
+              <td>H6</td>
+              <td>24px</td>
+              <td>16px</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-
-      <div class="col-sm-6">
-        <p class="cdo text-container ">
+    </div>
 
 
-          // 變數定義 <br>
-          $border-style: solid; <br>
-          $border-width: 0px; <br>
-          $padding: 0px; <br>
-          $display: flex; <br>
-          $align-items: center; <br>
-          $justify-content: center; <br>
-          $margin: 2px 0; <br>
-          $line-height: 1.5; <br>
-          $default-font-size: 16px; <br>
-          $font-family: "NotoSansTc-Regular", sans-serif; <br>
-          $color: #333333; <br>
-          <br>
-          // 混合，用於生成文字樣式 <br>
-          @mixin text-style($font-size: $default-font-size, $font-weight: normal) { <br>
-          border-style: $border-style; <br>
-          border-width: $border-width; <br>
-          font-size: $font-size; <br>
-          font-weight: $font-weight; <br>
-          padding: $padding; <br>
-          // display: $display; <br>
-          // align-items: $align-items; <br>
-          // justify-content: $justify-content; <br>
-          margin: $margin; <br>
-          line-height: $line-height; <br>
-          font-family: $font-family; <br>
-          color: $color; <br>
-          } <br>
-          <br>
-          // 具體的樣式 <br>
-          .txt-8 { <br>
-          @include text-style(8px); <br>
-          } <br>
-          <br>
-          .txt-8-B { <br>
-          @include text-style(8px, bold); <br>
-          } <br>
-          <br>
-          .txt-12 { <br>
-          @include text-style(12px); <br>
-          } <br>
-          <br>
-          .txt-12-B { <br>
-          @include text-style(12px, bold); <br>
-          } <br>
-          <br>
-          .txt-16 { <br>
-          @include text-style(16px); <br>
-          } <br>
-          <br>
-          .txt-16-B { <br>
-          @include text-style(16px, bold); <br>
-          } <br>
-          <br>
-          <br>
-          .txt-20 { <br>
-          @include text-style(20px); <br>
-          } <br>
-          <br>
-          .txt-20-B { <br>
-          @include text-style(20px, bold); <br>
-          } <br>
-          <br>
-          <br>
-          .txt-24 { <br>
-          @include text-style(24px); <br>
-          } <br>
-          <br>
-          .txt-24-B { <br>
-          @include text-style(24px, bold); <br>
-          } <br>
-          <br>
-          .txt-28 { <br>
-          @include text-style(28px); <br>
-          } <br>
-          <br>
-          .txt-28-B { <br>
-          @include text-style(28px, bold); <br>
-          } <br>
-          <br>
-          <br>
-          <br>
-          .txt-32 { <br>
-          @include text-style(32px); <br>
-          } <br>
-          <br>
-          .txt-32-B { <br>
-          @include text-style(32px, bold); <br>
-          } <br>
-          <br>
-          <br>
+    <div class="row">
 
 
-          .txt-40 { <br>
-          @include text-style(40px); <br>
-          } <br>
-          <br>
-          .txt-40-B { <br>
-          @include text-style(40px, bold); <br>
-          } <br>
-          <br>
-          <br>
-          // 沒有指定字體大小時，默認使用 16px <br>
-          <br>
-          .txt-default { <br>
-          @include text-style(); <br>
-          } <br>
-          <br>
 
-
-          //樣式 <br>
+      <div class="col-sm-12  title-02">
+        <span>
+          內文的間距
+        </span>
+        <p>使用8px作為間距的基礎。
           <br>
-          .title-01 { <br>
-          padding: 20px 0 0 0; <br>
-          } <br>
-          <br>
+          大尺寸之間的間距還須依照倍率下去做調整。
         </p>
       </div>
 
     </div>
 
+
+    <div class="row">
+
+      <div class="col-lg-6">
+
+
+        <div class="spacing-container">
+
+          <div class="spacing-row">
+            <span>spacing unit × ½ = 4px</span>
+            <div class="box box-4"></div>
+          </div>
+
+          <div class="spacing-row">
+            <span>spacing unit × 1 = 8px</span>
+            <div class="box box-8"></div>
+          </div>
+
+          <div class="spacing-row">
+            <span>spacing unit × 2 = 16px</span>
+            <div class="box box-16"></div>
+          </div>
+
+          <div class="spacing-row">
+            <span>spacing unit × 3 = 24px</span>
+            <div class="box box-24"></div>
+          </div>
+
+          <div class="spacing-row">
+            <span>spacing unit × 5 = 40px</span>
+            <div class="box box-40"></div>
+          </div>
+
+          <div class="spacing-row">
+            <span>spacing unit × 8 = 64px</span>
+            <div class="box box-64"></div>
+          </div>
+
+          <div class="spacing-row">
+            <span>spacing unit × 13 = 104px</span>
+            <div class="box box-104"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
-
-
 
 
 
