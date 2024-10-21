@@ -360,6 +360,17 @@ h5 {
   height: 104px;
 }
 
+.interval-example {
+  display: flex;
+  flex-direction: row;
+}
+.interval-example .interval-mobile {
+  background-color: #333333;
+}
+.interval-example .interval-pc {
+  background-color: aquamarine;
+}
+
 .index .bg-txt {
   padding: 40px 0 0 0;
 }

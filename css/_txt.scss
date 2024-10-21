@@ -458,3 +458,30 @@ h5 {
     height: 104px;
   }
 }
+
+
+
+
+//------------------------------
+
+
+.interval-example {
+  display: flex;
+  flex-direction: row;
+
+  .interval-mobile {
+
+    background-color: #333333;
+
+
+
+
+  }
+
+
+  .interval-pc {
+
+    background-color: aquamarine;
+
+  }
+}
