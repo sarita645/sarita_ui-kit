@@ -179,6 +179,9 @@ body {
         border: 0;
         transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 
+        .nav-link {
+          padding: 8px 14px;
+        }
 
 
 
@@ -192,18 +195,29 @@ body {
 
     .navbar-nav .nav-link.active,
     .navbar-nav .nav-link.show {
-      color: #a65c9a;
+      color: #ffffff;
+      background-color: #7F8B75;
     }
   }
 
 
 
 
+
+
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    color: #394430;
+    background-color: #d5d5d5;
+  }
+
+
   .dropdown-item.active,
   .dropdown-item:active {
-    color: #ffffff;
+    color: #394430;
     text-decoration: none;
-    background-color: #a65c9a;
+    background-color: #d4dfcb;
+
   }
 
 

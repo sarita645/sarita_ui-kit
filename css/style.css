@@ -1080,15 +1080,24 @@ body {
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  padding: 8px 14px;
+}
 .offcanvas .offcanvas-body .navbar-nav .nav-link.active,
 .offcanvas .offcanvas-body .navbar-nav .nav-link.show {
-  color: #a65c9a;
+  color: #ffffff;
+  background-color: #7F8B75;
+}
+.offcanvas .dropdown-item:focus,
+.offcanvas .dropdown-item:hover {
+  color: #394430;
+  background-color: #d5d5d5;
 }
 .offcanvas .dropdown-item.active,
 .offcanvas .dropdown-item:active {
-  color: #ffffff;
+  color: #394430;
   text-decoration: none;
-  background-color: #a65c9a;
+  background-color: #d4dfcb;
 }
 
 /* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */
