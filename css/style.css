@@ -365,10 +365,10 @@ h5 {
   flex-direction: row;
 }
 .interval-example .interval-mobile {
-  background-color: #333333;
+  background-color: rgba(211, 211, 211, 0.263);
 }
 .interval-example .interval-pc {
-  background-color: aquamarine;
+  background-color: rgba(211, 211, 211, 0.263);
 }
 
 .index .bg-txt {
@@ -1007,6 +1007,7 @@ body {
 
 .navbar {
   background-color: #7F8B75;
+  width: 100%;
 }
 
 .footer {
@@ -1049,9 +1050,25 @@ body {
 .navbar-brand {
   font-family: "Noto Serif TC", serif;
   font-size: 16px;
-  color: #ffffff;
+  color: #eaecee;
 }
 
+.offcanvas {
+  background-color: #eaecee;
+}
+.offcanvas .offcanvas-body .navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: #e34f76;
+  --bs-nav-link-color: #394430;
+  --bs-nav-link-hover-color: #e34f76;
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
 .offcanvas .offcanvas-body .navbar-nav .nav-item {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -1062,6 +1079,16 @@ body {
   background: 0 0;
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.offcanvas .offcanvas-body .navbar-nav .nav-link.active,
+.offcanvas .offcanvas-body .navbar-nav .nav-link.show {
+  color: #00908b;
+}
+.offcanvas .dropdown-item.active,
+.offcanvas .dropdown-item:active {
+  color: #dbff00;
+  text-decoration: none;
+  background-color: #02ad4b;
 }
 
 /* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */
