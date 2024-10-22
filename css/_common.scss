@@ -155,7 +155,7 @@ body {
     .navbar-nav {
       --bs-nav-link-padding-x: 0;
       --bs-nav-link-padding-y: 0.5rem;
-      --bs-nav-link-font-weight: #e34f76;
+      --bs-nav-link-font-weight: ;
       --bs-nav-link-color: #394430;
 
       --bs-nav-link-hover-color: #e34f76;
@@ -201,9 +201,9 @@ body {
 
   .dropdown-item.active,
   .dropdown-item:active {
-    color: #dbff00;
+    color: #ffffff;
     text-decoration: none;
-    background-color: #02ad4b;
+    background-color: #00908b;
   }
 
 
