@@ -600,6 +600,42 @@ td {
   background-color: #000000;
 }
 
+.black {
+  background-color: #000000;
+}
+
+.sp_color-01 {
+  background-color: #B65FB5;
+}
+
+.sp_color-02 {
+  background-color: #A16FB8;
+}
+
+.sp_color-03 {
+  background-color: #8C7FBA;
+}
+
+.sp_color-04 {
+  background-color: #7890BD;
+}
+
+.sp_color-05 {
+  background-color: #63A0BF;
+}
+
+.sp_color-06 {
+  background-color: #4EB0C2;
+}
+
+.sp_color-07 {
+  background-color: #CFB145;
+}
+
+.sp_color-08 {
+  background-color: #BAB354;
+}
+
 .color_ticket {
   display: flex;
   flex-direction: column;
