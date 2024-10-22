@@ -1082,13 +1082,13 @@ body {
 }
 .offcanvas .offcanvas-body .navbar-nav .nav-link.active,
 .offcanvas .offcanvas-body .navbar-nav .nav-link.show {
-  color: #00908b;
+  color: #a65c9a;
 }
 .offcanvas .dropdown-item.active,
 .offcanvas .dropdown-item:active {
   color: #ffffff;
   text-decoration: none;
-  background-color: #00908b;
+  background-color: #a65c9a;
 }
 
 /* 重置所有元素的邊距、內距、邊框、字體大小、字體及垂直對齊基準 */
