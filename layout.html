@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zn-ch">
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,25 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="script.js">
+
+
+
+
+
+
+
+
   <link rel="stylesheet" href="./css/style.css">
 
   <style></style>
 </head>
 
-<body class="index home">
+<body class="page">
+
+
+
+
 
   <nav class="navbar" aria-label="offcanvas navbar">
     <div class="container-fluid">
@@ -36,7 +50,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="txt.html">TXT 文字樣式與留白</a>
@@ -51,7 +65,7 @@
                 補充
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="layout.html">Layout</a></li>
+                <li><a class="dropdown-item  active" href="layout.html">Layout</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -85,36 +99,105 @@
 
 
 
+  <header class="header">
+    <p>Layout 布局與網格</p>
+  </header>
 
-  <div class="container ">
 
-    <div class="row bg-img">
-      <div class="col-sm-4 "></div>
-      <div class="col-sm-4 img"></div>
-      <div class="col-sm-4 "></div>
-    </div>
-    <div class="row bg-txt">
-      <div class="col-sm-12 ">
-        <p class="txt-24">(๑•̀ㅂ•́)و✧</p>
 
-        <p class="txt-12">這只是一個規範，但不是標準答案。</p>
-        <p class="txt-8 ">最後編輯時間：2024/10/00</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12  title-01">
+        <span>
+          網格
+        </span>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm-12  title-02">
+        <span>
+          組成方式
+        </span>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="txt-16">
+          <a href="https://getbootstrap.com/docs/5.3/layout/grid/" target="_blank">bootstrap
+          </a>網格為12列，會因應斷點效果自動排列。
+        </p>
+        <p class="txt-16">
+          <br>
+          --bs-breakpoint-xs: 0; <br>
+          --bs-breakpoint-sm: 576px; <br>
+          --bs-breakpoint-md: 768px; <br>
+          --bs-breakpoint-lg: 992px; <br>
+          --bs-breakpoint-xl: 1200px; <br>
+          --bs-breakpoint-xxl: 1400px;
+        </p>
+      </div>
+
+
+    </div>
+
+
+    <div class="row">
+
+
+      <div class="row">
+        <div class="col-sm-12 title-02">
+          <span>
+            範例
+          </span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="img-fluid" src="./img/範例-layout.png" alt="">
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
 
 
 
   </div>
 
-  <div class="ba-img-01"> </div>
+
+  </div>
+
+
+
+
+  </div>
+
+
+
 
 
 
 
   <footer class="footer">
 
-
   </footer>
+
 
 </body>
 

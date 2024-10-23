@@ -577,7 +577,11 @@ td {
 }
 
 .grey-200 {
-  background-color: #CCCCCC;
+  background-color: #DDDDDD;
+}
+
+.grey-300 {
+  background-color: #BFBFBF;
 }
 
 .grey-400 {
@@ -985,8 +989,36 @@ span {
   border: 1px solid rgba(35, 92, 172, 0);
 }
 
+.shape-box {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  margin: 0 auto;
+}
+
+/* 不同的圓角樣式 */
+.border-0 {
+  border-radius: 0;
+}
+
+.border-8 {
+  border-radius: 8px;
+}
+
+.border-16 {
+  border-radius: 16px;
+}
+
+.border-32 {
+  border-radius: 32px;
+}
+
+.border-100 {
+  border-radius: 50%;
+}
+
 body {
-  font-family: "Noto Serif TC", serif;
+  font-family: "Noto Serif TC", sans-serif;
 }
 
 .header {

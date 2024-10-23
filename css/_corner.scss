@@ -1,0 +1,27 @@
+.shape-box {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  margin: 0 auto;
+}
+
+/* 不同的圓角樣式 */
+.border-0 {
+  border-radius: 0;
+}
+
+.border-8 {
+  border-radius: 8px;
+}
+
+.border-16 {
+  border-radius: 16px;
+}
+
+.border-32 {
+  border-radius: 32px;
+}
+
+.border-100 {
+  border-radius: 50%;
+}
