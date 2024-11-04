@@ -426,430 +426,28 @@ td {
   }
 }
 /* 顏色樣式 */
-.blue-700 {
-  background-color: #235BAC;
+.red-50 {
+  background-color: #ffebee;
 }
 
-.blue-500 {
-  background-color: #5B8AC8;
+.red-100 {
+  background-color: #ffcdd2;
 }
 
-.blue-1000 {
-  background-color: #113F82;
+.red-200 {
+  background-color: #ef9a9a;
 }
 
-.blue-50 {
-  background-color: #EFF6FF;
+.red-300 {
+  background-color: #e57373;
 }
 
-.light_blue-700 {
-  background-color: #1499DF;
+.red-400 {
+  background-color: #ef5350;
 }
 
-.light_blue-500 {
-  background-color: #58B6E7;
-}
-
-.light_blue-1000 {
-  background-color: #0B6C9E;
-}
-
-.light_blue-50 {
-  background-color: #E0EFF6;
-}
-
-.green-700 {
-  background-color: #259D63;
-}
-
-.green-500 {
-  background-color: #65BA91;
-}
-
-.green-800 {
-  background-color: #1D8050;
-}
-
-.green-1000 {
-  background-color: #0C472A;
-}
-
-.green-50 {
-  background-color: #D1FAE5;
-}
-
-.cyan-700 {
-  background-color: #008DA6;
-}
-
-.cyan-500 {
-  background-color: #4EB0C2;
-}
-
-.cyan-1000 {
-  background-color: #006173;
-}
-
-.cyan-50 {
-  background-color: #E0F7FA;
-}
-
-.orange-700 {
-  background-color: #FB5B01;
-}
-
-.orange-500 {
-  background-color: #FC8C4C;
-}
-
-.orange-1000 {
-  background-color: #6D2700;
-}
-
-.orange-50 {
-  background-color: #FFEEE2;
-}
-
-.dark_blue-1000 {
-  background-color: #052149;
-}
-
-.dark_blue-700 {
-  background-color: #4F6481;
-}
-
-.dark_blue-400 {
-  background-color: #99A7BA;
-}
-
-.dark_blue-50 {
-  background-color: #F1F5F9;
-}
-
-.purple-500 {
-  background-color: #B65FB5;
-}
-
-.purple-700 {
-  background-color: #A440A3;
-}
-
-.purple-900 {
-  background-color: #752176;
-}
-
-.yellow-700 {
-  background-color: #B78F00;
-}
-
-.yellow-500 {
-  background-color: #CFB145;
-}
-
-.yellow-900 {
-  background-color: #927200;
-}
-
-.orange-700 {
-  background-color: #FB5B01;
-}
-
-.orange-800 {
-  background-color: #CC4A01;
-}
-
-.red-600 {
-  background-color: #EF2525;
-}
-
-.red-800 {
-  background-color: #CC0000;
-}
-
-.white {
-  background-color: #ffffff;
-}
-
-.white-border {
-  background-color: #ffffff;
-  border: 1px solid #bfbfbf;
-  /* 实线边框 */
-}
-
-.grey-200 {
-  background-color: #DDDDDD;
-}
-
-.grey-300 {
-  background-color: #BFBFBF;
-}
-
-.grey-400 {
-  background-color: #999999;
-}
-
-.grey-500 {
-  background-color: #7F7F7F;
-}
-
-.grey-600 {
-  background-color: #666666;
-}
-
-.grey-800 {
-  background-color: #333333;
-}
-
-.black {
-  background-color: #000000;
-}
-
-.black {
-  background-color: #000000;
-}
-
-.sp_color-01 {
-  background-color: #B65FB5;
-}
-
-.sp_color-02 {
-  background-color: #A16FB8;
-}
-
-.sp_color-03 {
-  background-color: #8C7FBA;
-}
-
-.sp_color-04 {
-  background-color: #7890BD;
-}
-
-.sp_color-05 {
-  background-color: #63A0BF;
-}
-
-.sp_color-06 {
-  background-color: #4EB0C2;
-}
-
-.sp_color-07 {
-  background-color: #CFB145;
-}
-
-.sp_color-08 {
-  background-color: #BAB354;
-}
-
-.sp_color-09 {
-  background-color: #A5B563;
-}
-
-.sp_color-10 {
-  background-color: #8FB673;
-}
-
-.sp_color-11 {
-  background-color: #7AB882;
-}
-
-.sp_color-12 {
-  background-color: #65BA91;
-}
-
-.sp_color-13 {
-  background-color: #F24949;
-}
-
-.sp_color-14 {
-  background-color: #EB5E48;
-}
-
-.sp_color-15 {
-  background-color: #E47347;
-}
-
-.sp_color-16 {
-  background-color: #DD8747;
-}
-
-.sp_color-17 {
-  background-color: #D69C46;
-}
-
-.sp_color-18 {
-  background-color: #CFB145;
-}
-
-.color_ticket {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.color_ticket-dark {
-  background-color: #1A1A1C;
-}
-
-.button-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.button-table th,
-.button-table td {
-  padding: 15px;
-  text-align: left;
-}
-
-th {
-  font-weight: bold;
-}
-
-td {
-  vertical-align: top;
-}
-
-.color-info {
-  display: flex;
-  align-items: flex-start;
-  margin-top: 5px;
-  flex-direction: column;
-}
-.color-info .color-info-top,
-.color-info .color-info-below {
-  display: flex;
-  margin: 2px 0;
-}
-
-.color {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  border-radius: 3px;
-}
-
-.blue-default {
-  background-color: #235BAC;
-  /* Blue-700 */
-  color: #FFFFFF;
-}
-
-.blue-hover {
-  background-color: #4A90E2;
-  /* Blue-500 */
-  color: #FFFFFF;
-}
-
-.blue-active {
-  background-color: #0B3D91;
-  /* Blue-1000 */
-  color: #FFFFFF;
-}
-
-.dark-blue-default {
-  background-color: #0B2545;
-  /* Dark Blue-1000 */
-  color: #FFFFFF;
-}
-
-.dark-blue-hover {
-  background-color: #3C5A73;
-  /* Dark Blue-700 */
-  color: #FFFFFF;
-}
-
-.dark-blue-active {
-  background-color: #7B98B1;
-  /* Dark Blue-400 */
-  color: #FFFFFF;
-}
-
-.cyan-default {
-  background-color: #0097A7;
-  /* Cyan-700 */
-  color: #FFFFFF;
-}
-
-.cyan-hover {
-  background-color: #ffffff;
-  /* Cyan-500 */
-  color: #00ACC1;
-  border: 1px solid #00ACC1;
-  /* 实线边框 */
-}
-
-.cyan-active {
-  background-color: #E0F7FA;
-  /* Cyan-1000 */
-  color: #00796B;
-  border: 1px solid #00796B;
-  /* 实线边框 */
-}
-
-span {
-  margin-right: 10px;
-  font-size: 14px;
-}
-
-/* 藍色按鈕的不同狀態 */
-.btn-blue {
-  background-color: #235BAC;
-  /* default: Blue-700 */
-  color: #ffffff;
-}
-
-.btn-blue:hover {
-  background-color: #5B8AC8;
-  /* hover: Blue-500 */
-  color: #ffffff;
-}
-
-.btn-blue:active {
-  background-color: #113F82;
-  /* active: Blue-1000 */
-  color: #ffffff;
-}
-
-.btn-dark_blue {
-  background-color: #052149;
-  /* default: Blue-700 */
-  color: #ffffff;
-}
-
-.btn-dark_blue:hover {
-  background-color: #4F6481;
-  /* hover: Blue-500 */
-  color: #ffffff;
-}
-
-.btn-dark_blue:active {
-  background-color: #99A7BA;
-  /* active: Blue-1000 */
-  color: #ffffff;
-}
-
-.btn-cyan {
-  background-color: #008DA6;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(0, 121, 107, 0);
-}
-
-.btn-cyan:hover {
-  background-color: #ffffff;
-  /* Cyan-500 */
-  color: #00ACC1;
-  border: 1px solid #00ACC1;
-  /* 实线边框 */
-}
-
-.btn-cyan:active {
-  background-color: #E0F7FA;
-  /* Cyan-1000 */
-  color: #00796B;
-  border: 1px solid #00796B;
-  /* 实线边框 */
+.red-500 {
+  background-color: #f44336;
 }
 
 .btn {
@@ -989,11 +587,12 @@ span {
   border: 1px solid rgba(35, 92, 172, 0);
 }
 
-.shape-box {
-  width: 100px;
-  height: 100px;
-  background-color: #999;
+.corners-box {
+  width: 6rem;
+  height: 6rem;
   margin: 0 auto;
+  border-radius: 6px;
+  background-color: #999;
 }
 
 /* 不同的圓角樣式 */
@@ -1015,6 +614,30 @@ span {
 
 .border-100 {
   border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .corners-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+.border-8 {
+  border-radius: 4px;
+  /* 調整相對圓角 */
+}
+
+.border-16 {
+  border-radius: 8px;
+}
+
+.border-32 {
+  border-radius: 16px;
+}
+
+.border-100 {
+  border-radius: 25%;
+  /* 保持比例縮放，防止變成完全圓形 */
 }
 
 body {

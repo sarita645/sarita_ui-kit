@@ -29,7 +29,6 @@
 
 <body class="page">
 
-
   <nav class="navbar" aria-label="offcanvas navbar">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
@@ -50,11 +49,31 @@
               <a class="nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="txt.html">TXT 文字樣式與留白</a>
+              <a class="nav-link " href="txt.html">TXT 文字樣式與留白</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="color.html">Color</a></li>
-            <li class="nav-item"><a class="nav-link" href="button.html">Button</a></li>
-            <li class="nav-item active"><a class="nav-link" href="corner.html">Corner</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Color
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="color.html">通用</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item  active" href="color_w11.html">color_w11</a></li>
+              </ul>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="button.html">Button</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="corner.html">Corner</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -91,93 +110,36 @@
 
 
 
-  <header class="header">
-    <p>Rounded corners 圓角</p>
-  </header>
 
+  <header class="header">
+    <p>W11</p>
+  </header>
 
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-12  title-01">
-        <span>
-          圓角
-        </span>
+      <div class="col-sm-12 title-01 ">
+        <span class="txt-20-B">關於顏色</span>
+        <p class="txt-16">請確保整個網站/介面的設計一致性，並統一配色方案，讓使用者能夠清楚地認識到顏色在傳達訊息中的作用，例如它們的含義和功能。</p>
+        <br>
+        <p class="txt-16">【通常】基本色：藍Blue、淺藍Light Blue、青Cyan</p>
+        <p class="txt-16">【須注意】基本色：綠Green、青Cyan</p>
+        <p class="txt-16">【請注意】基本色：橙Orange</p>
+        <br>
+        <p class="txt-16">淺色背景，文字推薦使用 color: #333333; </p>
+        <p class="txt-16">深色背景，文字推薦使用 color: #ffffff; </p>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-sm-12  title-02">
-        <span>
-          形狀風格
-        </span>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-xl-8  col-sm-4 txt-12">
-
-        <table>
-          <tr>
-            <th>圓角-無<br>border-0</th>
-            <th>圓角-小<br>border-8</th>
-            <th>圓角-中<br>border-16</th>
-            <th>圓角-大<br>border-32</th>
-            <th>圓角-全<br>border-100</th>
-          </tr>
-          <tr>
-            <td>
-              <div class="corners-box border-0"></div>
-            </td>
-            <td>
-              <div class="corners-box border-8"></div>
-            </td>
-            <td>
-              <div class="corners-box border-16"></div>
-            </td>
-            <td>
-              <div class="corners-box border-32"></div>
-            </td>
-            <td>
-              <div class="corners-box border-100"></div>
-            </td>
-          </tr>
-          <tr>
-            <td>圓角半徑：0</td>
-            <td>圓角半徑：8</td>
-            <td>圓角半徑：16</td>
-            <td>圓角半徑：32</td>
-            <td>圓角半徑：50%</td>
-          </tr>
-        </table>
-
-
-      </div>
-
-
-    </div>
-
-
-
-
 
   </div>
 
 
 
 
-  </div>
-
-
-
-
-
-
-
-  <footer class="footer">
+  <footer class="footer ">
 
   </footer>
+
 
 </body>
 
