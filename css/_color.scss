@@ -248,6 +248,8 @@ $blue-grey-800: #37474f;
 $blue-grey-900: #263238;
 
 
+$white: #FFFFFF;
+$black: #212121;
 
 //-------------
 .red-50 {
@@ -1185,5 +1187,76 @@ $blue-grey-900: #263238;
 
 .blue-grey-900 {
   background-color: $blue-grey-900;
+
+}
+
+
+
+//黑白
+.white {
+  background-color: $white;
+}
+
+.black {
+  background-color: $black;
+}
+
+
+//--------------------
+
+
+
+.color-container {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 360px;
+  max-height: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  margin: 10px;
+
+
+
+  .color-ticket {
+    display: flex;
+
+    .color-box {
+      width: 50px;
+      height: 50px;
+      border-radius: 0px;
+    }
+
+
+  }
+
+  .swatch-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+  .swatch-row-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    .color-box {
+      width: 30px;
+      height: 30px;
+      border-radius: 0px;
+    }
+
+    .color-code {
+      font-size: 14px;
+      color: #333;
+    }
+  }
+
 
 }

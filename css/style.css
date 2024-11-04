@@ -59,7 +59,7 @@
   color: #333333;
 }
 
-.txt-16-B, .h3-B {
+.txt-16-B, .h5-B {
   border-style: solid;
   border-width: 0px;
   font-size: 1rem;
@@ -131,7 +131,7 @@
   color: #333333;
 }
 
-.txt-28-B, .h2-B {
+.txt-28-B, .h3-B {
   border-style: solid;
   border-width: 0px;
   font-size: 1.8rem;
@@ -218,7 +218,7 @@
 .txt-default {
   border-style: solid;
   border-width: 0px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   padding: 0px;
   margin: 2px 0;
@@ -1184,6 +1184,54 @@ td {
 
 .blue-grey-900 {
   background-color: #263238;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.black {
+  background-color: #212121;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 360px;
+  max-height: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  margin: 10px;
+}
+.color-container .color-ticket {
+  display: flex;
+}
+.color-container .color-ticket .color-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px;
+}
+.color-container .swatch-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.color-container .swatch-row-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.color-container .swatch-row-box .color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 0px;
+}
+.color-container .swatch-row-box .color-code {
+  font-size: 14px;
+  color: #333;
 }
 
 .btn {
