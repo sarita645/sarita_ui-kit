@@ -47,3 +47,18 @@
 
 
 }
+
+
+/* 修改反白選取顏色 */
+::selection {
+  background-color: #e3e4d3;
+  /* 選取時的背景色 */
+  color: #322c28;
+  /* 選取時的文字顏色 */
+}
+
+/* 適用於 Firefox 瀏覽器的選取顏色 */
+::-moz-selection {
+  background-color: #e3e4d3;
+  color: #322c28;
+}

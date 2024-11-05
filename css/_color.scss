@@ -1261,3 +1261,100 @@ $black: #212121;
 
 
 }
+
+
+
+//------------------W11
+/* 整體樣式 */
+.color-section {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+/* 每個顏色項目的樣式 */
+.color-item {
+  text-align: center;
+}
+
+/* 標籤文字樣式 */
+.label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* 顏色方塊樣式 */
+.color-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto 8px;
+}
+
+/* 顏色代碼文字樣式 */
+.color-code {
+  font-weight: bold;
+  color: #333;
+}
+
+/* 各顏色的具體樣式 */
+/* 表格樣式 */
+.color-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.color-table th,
+.color-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+/* 顏色方塊樣式 */
+.color-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto 8px;
+  display: block;
+}
+
+/* 顏色代碼文字樣式 */
+.color-code {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 各顏色的具體樣式 */
+.blue-500 {
+  background-color: #2196f3;
+}
+
+.green-500 {
+  background-color: #4caf50;
+}
+
+.orange-500 {
+  background-color: #ff9800;
+}
+
+.red-500 {
+  background-color: #f44336;
+}
+
+.pink-400 {
+  background-color: #ec407a;
+}
+
+.yellow-600 {
+  background-color: #fdd835;
+}
+
+.grey-800 {
+  background-color: #424242;
+}
