@@ -124,7 +124,7 @@
       </div>
       <div class="col-sm-6">
         <p class="h5-N">Noto Sans Traditional Chinese</p>
-        <p class="h5-N-B">Noto Sans Traditional Chinese</p>
+        <p class="h5-B">Noto Sans Traditional Chinese</p>
       </div>
 
     </div>
@@ -133,285 +133,177 @@
     <div class="row">
 
 
-      <div class="row">
-        <div class="col-sm-12 title-02">
-          <span>
-            字體範例
-          </span>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <p class=" txt-8">8px 文字範例</p>
-          <p class=" txt-8-B">8px 文字範例</p>
-          <p class=" txt-12">12px 文字範例</p>
-          <p class=" txt-12-B">12px 文字範例</p>
-          <p class=" txt-16">16px 文字範例</p>
-          <p class=" txt-16-B">16px 文字範例</p>
-          <p class=" txt-20">20px 文字範例</p>
-          <p class=" txt-20-B">20px 文字範例</p>
-          <p class=" txt-24">24px 文字範例</p>
-          <p class=" txt-24-B">24px 文字範例</p>
-          <p class=" txt-28">28px 文字範例</p>
-          <p class=" txt-28-B">28px 文字範例</p>
-          <p class=" txt-32">32px 文字範例</p>
-          <p class=" txt-32-B">32px 文字範例</p>
-          <p class=" txt-40">40px 文字範例</p>
-          <p class=" txt-40-B">40px 文字範例</p>
-        </div>
-
-        <div class="col-sm-6">
-          <p class="cdo text-container ">
-
-
-            // 變數定義 <br>
-            $border-style: solid; <br>
-            $border-width: 0px; <br>
-            $padding: 0px; <br>
-            $display: flex; <br>
-            $align-items: center; <br>
-            $justify-content: center; <br>
-            $margin: 2px 0; <br>
-            $line-height: 1.5; <br>
-            $default-font-size: 16px; <br>
-            $font-family: "NotoSansTc-Regular", sans-serif; <br>
-            $color: #333333; <br>
-            <br>
-            // 混合，用於生成文字樣式 <br>
-            @mixin text-style($font-size: $default-font-size, $font-weight: normal) { <br>
-            border-style: $border-style; <br>
-            border-width: $border-width; <br>
-            font-size: $font-size; <br>
-            font-weight: $font-weight; <br>
-            padding: $padding; <br>
-            // display: $display; <br>
-            // align-items: $align-items; <br>
-            // justify-content: $justify-content; <br>
-            margin: $margin; <br>
-            line-height: $line-height; <br>
-            font-family: $font-family; <br>
-            color: $color; <br>
-            } <br>
-            <br>
-            // 具體的樣式 <br>
-            .txt-8 { <br>
-            @include text-style(8px); <br>
-            } <br>
-            <br>
-            .txt-8-B { <br>
-            @include text-style(8px, bold); <br>
-            } <br>
-            <br>
-            .txt-12 { <br>
-            @include text-style(12px); <br>
-            } <br>
-            <br>
-            .txt-12-B { <br>
-            @include text-style(12px, bold); <br>
-            } <br>
-            <br>
-            .txt-16 { <br>
-            @include text-style(16px); <br>
-            } <br>
-            <br>
-            .txt-16-B { <br>
-            @include text-style(16px, bold); <br>
-            } <br>
-            <br>
-            <br>
-            .txt-20 { <br>
-            @include text-style(20px); <br>
-            } <br>
-            <br>
-            .txt-20-B { <br>
-            @include text-style(20px, bold); <br>
-            } <br>
-            <br>
-            <br>
-            .txt-24 { <br>
-            @include text-style(24px); <br>
-            } <br>
-            <br>
-            .txt-24-B { <br>
-            @include text-style(24px, bold); <br>
-            } <br>
-            <br>
-            .txt-28 { <br>
-            @include text-style(28px); <br>
-            } <br>
-            <br>
-            .txt-28-B { <br>
-            @include text-style(28px, bold); <br>
-            } <br>
-            <br>
-            <br>
-            <br>
-            .txt-32 { <br>
-            @include text-style(32px); <br>
-            } <br>
-            <br>
-            .txt-32-B { <br>
-            @include text-style(32px, bold); <br>
-            } <br>
-            <br>
-            <br>
-
-
-            .txt-40 { <br>
-            @include text-style(40px); <br>
-            } <br>
-            <br>
-            .txt-40-B { <br>
-            @include text-style(40px, bold); <br>
-            } <br>
-            <br>
-            <br>
-            // 沒有指定字體大小時，默認使用 16px <br>
-            <br>
-            .txt-default { <br>
-            @include text-style(); <br>
-            } <br>
-            <br>
-
-
-            //樣式 <br>
-            <br>
-            .title-01 { <br>
-            padding: 20px 0 0 0; <br>
-            } <br>
-            <br>
-          </p>
-        </div>
+      <div class="col-sm-12  title-02">
+        <span>
+          適用範例
+        </span>
 
       </div>
 
       <div class="row">
 
+        <div class="col-lg-8">
 
-        <div class="col-sm-12  title-02">
-          <span>
-            適用範例
-          </span>
+          <table class="level-table">
+            <thead>
+              <tr>
+                <th>推薦使用等級</th>
+                <th>範例</th>
+                <th>備註</th>
+                <th>class ID</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>h1</p>
+                </td>
+                <td>
+                  <p class="h1-N">標題L</p>
+                </td>
+                <td>
+                  <p>40px; 3rem</p>
+                </td>
+                <td>
+                  <p>h1-N</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>h2</p>
+                </td>
+                <td>
+                  <p class="h2-N">標題M</p">
+                </td>
+                <td>
+                  <p>32px; 2rem</p>
+                </td>
+                <td>
+                  <p>h2-N</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>h3</p>
+                </td>
+                <td>
+                  <h3 class="h3-N">標題S</h3>
+                </td>
+                <td>
+                  <p>28px; 1.8rem</p>
+                </td>
+                <td>
+                  <p>h3-N</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>h4</p>
+                </td>
+                <td>
+                  <h4 class="h4-N">標題XS</h4>
+                </td>
+                <td>
+                  <p>20px; 1.3rem</p>
+                </td>
+                <td>
+                  <p>h4-N</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>h5</p>
+                </td>
+                <td>
+                  <h5 class="h5-N">標題XXS</h5>
+                </td>
+                <td>
+                  <p>16px; 1rem</p>
+                </td>
+                <td>
+                  <p>h5-N</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <p>h6</p>
+                </td>
+                <td>
+                  <h5 class="h6-N">標題XXXS</h5>
+                </td>
+                <td>
+                  <p>12px; 0.5rem</p>
+                </td>
+                <td>
+                  <p>h6-N</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <p>h7</p>
+                </td>
+                <td>
+                  <h5 class="h7-N">標題XXXXS</h5>
+                </td>
+                <td>
+                  <p>12px; 0.5rem</p>
+                </td>
+                <td>
+                  <p>h7-N</p>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-8">
-
-            <table class="level-table">
-              <thead>
-                <tr>
-                  <th>推薦使用等級</th>
-                  <th>範例</th>
-                  <th>備註</th>
-                  <th>class ID</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <p>h1</p>
-                  </td>
-                  <td>
-                    <p class="h1-N">標題L</p>
-                  </td>
-                  <td>
-                    <p>40px; 3rem</p>
-                  </td>
-                  <td>
-                    <p>h1-N</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>h2</p>
-                  </td>
-                  <td>
-                    <p class="h2-N">標題M</p">
-                  </td>
-                  <td>
-                    <p>32px; 2rem</p>
-                  </td>
-                  <td>
-                    <p>h2-N</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>h3</p>
-                  </td>
-                  <td>
-                    <h3 class="h3-N">標題S</h3>
-                  </td>
-                  <td>
-                    <p>28px; 1.8rem</p>
-                  </td>
-                  <td>
-                    <p>h3-N</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>h4</p>
-                  </td>
-                  <td>
-                    <h4 class="h4-N">標題XS</h4>
-                  </td>
-                  <td>
-                    <p>20px; 1.3rem</p>
-                  </td>
-                  <td>
-                    <p>h4-N</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>h5</p>
-                  </td>
-                  <td>
-                    <h5 class="h5-N">標題XXS</h5>
-                  </td>
-                  <td>
-                    <p>16px; 1rem</p>
-                  </td>
-                  <td>
-                    <p>h5-N</p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <p>h6</p>
-                  </td>
-                  <td>
-                    <h5 class="h6-N">標題XXXS</h5>
-                  </td>
-                  <td>
-                    <p>12px; 0.5rem</p>
-                  </td>
-                  <td>
-                    <p>h6-N</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-          </div>
-
-        </div>
-
-
-
-
 
       </div>
+
 
 
 
 
     </div>
+
+    <div class="row">
+      <div class="col-sm-12 title-02">
+        <span>
+          字體範例
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p class=" h7-N">8px 文字範例</p>
+        <p class=" h7-B">8px 文字範例</p>
+        <p class=" h6-N">12px 文字範例</p>
+        <p class=" h6-B">12px 文字範例</p>
+        <p class=" h5-N">16px 文字範例</p>
+        <p class=" h5-B">16px 文字範例</p>
+        <p class=" h4">20px 文字範例</p>
+        <p class=" h4-B">20px 文字範例</p>
+        <p class=" h3">28px 文字範例</p>
+        <p class=" h3-B">28px 文字範例</p>
+        <p class=" h2">32px 文字範例</p>
+        <p class=" h2-B">32px 文字範例</p>
+        <p class=" h1-N">40px 文字範例</p>
+        <p class=" h1-B">40px 文字範例</p>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
 
 
 
@@ -428,6 +320,7 @@
           標題與內文的間距
         </span>
         <p>標題若為H1 接續內文需距離24px</p>
+        須利用margin-bottom 自行調整
       </div>
 
     </div>
@@ -591,12 +484,12 @@
       <div class="col-md-3 ">
 
         <div class="combination">
-          <p class="title">txt-8</p>
-          <p class="txt-8 example">
+          <p class="title">h7-N</p>
+          <p class="h7-N example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod ">
-            .txt-8 {
+            .h7-N {
             <br>
               border-style: solid;
             <br>
@@ -625,12 +518,12 @@
       <div class="col-md-3 ">
         <div class="combination">
 
-          <p class="title">txt-8-B</p>
-          <p class="txt-8-B example">
+          <p class="title">h7-N-B</p>
+          <p class="h7-N-B example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod">
-            .txt-8-B {
+            .h7-N-B {
             <br>
               border-style: solid;
             <br>
@@ -660,12 +553,12 @@
       <div class="col-md-3 ">
 
         <div class="combination">
-          <p class="title">txt-8</p>
-          <p class="txt-8 example">
+          <p class="title">h7-N</p>
+          <p class="h7-N example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod ">
-            .txt-8 {
+            .h7-N {
             <br>
               border-style: solid;
             <br>
@@ -694,12 +587,12 @@
       <div class="col-md-3 ">
         <div class="combination">
 
-          <p class="title">txt-8-B</p>
-          <p class="txt-8-B example">
+          <p class="title">h7-N-B</p>
+          <p class="h7-N-B example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod">
-            .txt-8-B {
+            .h7-N-B {
             <br>
               border-style: solid;
             <br>
@@ -731,12 +624,12 @@
       <div class="col-md-3 ">
 
         <div class="combination">
-          <p class="title">txt-8</p>
-          <p class="txt-8 example">
+          <p class="title">h7-N</p>
+          <p class="h7-N example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod ">
-            .txt-8 {
+            .h7-N {
             <br>
               border-style: solid;
             <br>
@@ -765,12 +658,12 @@
       <div class="col-md-3 ">
         <div class="combination">
 
-          <p class="title">txt-8-B</p>
-          <p class="txt-8-B example">
+          <p class="title">h7-N-B</p>
+          <p class="h7-N-B example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod">
-            .txt-8-B {
+            .h7-N-B {
             <br>
               border-style: solid;
             <br>
@@ -800,12 +693,12 @@
       <div class="col-md-3 ">
 
         <div class="combination">
-          <p class="title">txt-8</p>
-          <p class="txt-8 example">
+          <p class="title">h7-N</p>
+          <p class="h7-N example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod ">
-            .txt-8 {
+            .h7-N {
             <br>
               border-style: solid;
             <br>
@@ -834,12 +727,12 @@
       <div class="col-md-3 ">
         <div class="combination">
 
-          <p class="title">txt-8-B</p>
-          <p class="txt-8-B example">
+          <p class="title">h7-N-B</p>
+          <p class="h7-N-B example">
             文字文字：文字文字，文字文字文字文字文字文字⋯文字文字文字文字文字文字，文字文字文字：文字文字。文字文字文字，文字文字文字文字，文字文字文字文字，文字文字文字⋯
           </p>
           <p class="cod">
-            .txt-8-B {
+            .h7-N-B {
             <br>
               border-style: solid;
             <br>

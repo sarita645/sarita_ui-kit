@@ -281,6 +281,7 @@ $black: #212121;
 
 .red-600 {
   background-color: $red-600;
+  color: $red-600;
 
 }
 
@@ -1211,7 +1212,7 @@ $black: #212121;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 220px;
+  // max-width: 220px;
   max-height: 400px;
   padding: 20px;
   border: 1px solid #ddd;

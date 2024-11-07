@@ -28,13 +28,27 @@ $white-color: #FFFFFF; // 定義白色字體
   color: $color;
 }
 
-// 具體的樣式
+
+//行高
+$line-height: 1.5;
+
+
+
+// 文字具體的樣式
 .txt-8 {
   @include text-style(0.5rem);
 }
 
 .txt-8-B {
   @include text-style(0.5rem, bold);
+}
+
+.h7-N {
+  @extend .txt-8;
+}
+
+.h7-B {
+  @extend .txt-8-B;
 }
 
 
@@ -294,7 +308,8 @@ h5 {
 
   p {
     font-size: 16px;
-    line-height: 1.5;
+    // line-height: 1.5;
+    line-height: $line-height;
   }
 }
 
