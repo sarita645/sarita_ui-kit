@@ -227,31 +227,6 @@
   color: #333333;
 }
 
-h1 {
-  font-size: 40px;
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 32px;
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 28px;
-  font-size: 1.8rem;
-}
-
-h4 {
-  font-size: 20px;
-  font-size: 1.3rem;
-}
-
-h5 {
-  font-size: 16px;
-  font-size: 1rem;
-}
-
 .title-01 {
   padding: 64px 0 16px 0;
 }

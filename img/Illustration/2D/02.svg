@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-6faf322d-7b77-45b8-b2e9-4afc653e6085" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.77 226.77">
+  <rect x="5.71" y="160.22" width="192.41" height="64.68" style="fill: none; stroke: #917454; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.43px;"/>
+  <rect x="5.71" y="160.22" width="192.41" height="64.68" style="fill: #b09779;"/>
+  <rect x="5.71" y="160.22" width="192.41" height="5.82" style="fill: #9a8167;"/>
+  <g>
+    <rect x="1.89" y="143.32" width="200.03" height="16.9" style="fill: none; stroke: #211a1a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3.1px;"/>
+    <polygon points="193.68 131.12 10.33 131.12 1.89 143.32 201.92 143.32 193.68 131.12" style="fill: none; stroke: #211a1a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3.1px;"/>
+  </g>
+  <g>
+    <rect x="2.12" y="143.32" width="200.03" height="16.9" style="fill: #362c29;"/>
+    <polygon points="193.92 131.12 10.56 131.12 2.12 143.32 202.16 143.32 193.92 131.12" style="fill: #574943;"/>
+    <g style="opacity: .2;">
+      <polyline points="15.95 131.12 6.64 143.32 6.64 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="25.58 131.12 17.31 143.32 17.31 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="35.21 131.12 27.97 143.32 27.97 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="44.84 131.12 38.63 143.32 38.63 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="54.47 131.12 49.29 143.32 49.29 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="64.09 131.12 59.96 143.32 59.96 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="73.72 131.12 70.62 143.32 70.62 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="83.35 131.12 81.28 143.32 81.28 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="92.98 131.12 91.94 143.32 91.94 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="102.61 131.12 102.61 143.32 102.61 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="112.24 131.12 113.27 143.32 113.27 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="121.86 131.12 123.93 143.32 123.93 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="131.49 131.12 134.6 143.32 134.6 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="141.12 131.12 145.26 143.32 145.26 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="150.75 131.12 155.92 143.32 155.92 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="160.38 131.12 166.58 143.32 166.58 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="170 131.12 177.25 143.32 177.25 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="179.63 131.12 187.91 143.32 187.91 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+      <polyline points="189.26 131.12 198.57 143.32 198.57 160.22" style="fill: none; stroke: #040000; stroke-miterlimit: 10; stroke-width: 1.24px;"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <rect x="24.88" y="196" width="5.2" height="30.14" style="fill: #7a7a7a;"/>
+      <rect x="23.53" y="196" width="3.95" height="30.14" style="fill: none; stroke: #8e8e8e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.27px;"/>
+      <rect x="23.53" y="196" width="3.95" height="30.26" style="fill: #a7a9ac;"/>
+    </g>
+    <g>
+      <rect x="61.46" y="196" width="5.2" height="30.14" style="fill: #7a7a7a;"/>
+      <rect x="60.11" y="196" width="3.95" height="30.14" style="fill: none; stroke: #8e8e8e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.27px;"/>
+      <rect x="60.11" y="196" width="3.95" height="30.23" style="fill: #a7a9ac;"/>
+    </g>
+    <g>
+      <rect x="98.04" y="196" width="5.2" height="30.14" style="fill: #7a7a7a;"/>
+      <rect x="96.69" y="196" width="3.95" height="30.14" style="fill: none; stroke: #8e8e8e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.27px;"/>
+      <rect x="96.69" y="196" width="3.95" height="30.2" style="fill: #a7a9ac;"/>
+    </g>
+    <g>
+      <rect x="134.63" y="196" width="5.2" height="30.14" style="fill: #7a7a7a;"/>
+      <rect x="133.28" y="196" width="3.95" height="30.14" style="fill: none; stroke: #8e8e8e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.27px;"/>
+      <rect x="133.28" y="196" width="3.95" height="30.17" style="fill: #a7a9ac;"/>
+    </g>
+    <g>
+      <rect x="171.21" y="196" width="5.2" height="30.14" style="fill: #7a7a7a;"/>
+      <rect x="169.86" y="196" width="3.95" height="30.14" style="fill: none; stroke: #8e8e8e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.27px;"/>
+      <rect x="169.86" y="196" width="3.95" height="30.14" style="fill: #a7a9ac;"/>
+    </g>
+  </g>
+  <g>
+    <line y1="195.06" x2="198.12" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: 1.85px;"/>
+    <line y1="187.25" x2="198.12" y2="187.25" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .62px;"/>
+    <g>
+      <line x1="198.12" y1="187.25" x2="198.12" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="188.23" y1="187.25" x2="188.23" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="178.34" y1="187.25" x2="178.34" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="168.45" y1="187.25" x2="168.45" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="158.56" y1="187.25" x2="158.56" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="148.67" y1="187.25" x2="148.67" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="138.78" y1="187.25" x2="138.78" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="128.89" y1="187.25" x2="128.89" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="118.99" y1="187.25" x2="118.99" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="109.1" y1="187.25" x2="109.1" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="99.21" y1="187.25" x2="99.21" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="89.32" y1="187.25" x2="89.32" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="79.43" y1="187.25" x2="79.43" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="69.54" y1="187.25" x2="69.54" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="59.65" y1="187.25" x2="59.65" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="49.76" y1="187.25" x2="49.76" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="39.87" y1="187.25" x2="39.87" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="29.98" y1="187.25" x2="29.98" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="20.09" y1="187.25" x2="20.09" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1="10.19" y1="187.25" x2="10.19" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+      <line x1=".3" y1="187.25" x2=".3" y2="195.06" style="fill: none; stroke: #d7d0c6; stroke-miterlimit: 10; stroke-width: .61px;"/>
+    </g>
+    <polygon points="224.99 224.89 198.12 196 198.12 194.15 226.77 224.89 224.99 224.89" style="fill: #d7d0c6;"/>
+  </g>
+  <rect x="5.71" y="196" width="192.41" height="5.82" style="fill: #7a654d; opacity: .5;"/>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="uuid-62dda8e7-97f1-4aea-b8f8-7ce3819582a4" data-name="未命名漸層 79" x1="28.59" y1="38.21" x2="51.75" y2="75.26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c2e2f"/>
+      <stop offset=".43" stop-color="#72282a"/>
+      <stop offset=".99" stop-color="#5f1e20"/>
+    </linearGradient>
+  </defs>
+  <g style="isolation: isolate;">
+    <g id="uuid-8b8e0e99-f8db-432a-a80b-a0cb3d0f0d0c" data-name="圖層 1">
+      <g>
+        <ellipse cx="51.41" cy="72.16" rx="27.67" ry="7.98" style="fill: #afafaf; mix-blend-mode: multiply; opacity: .5;"/>
+        <path d="M44.35,30.49l-23.43,40.58s0,4.92,27.29,4.92,27.29-4.92,27.29-4.92l-23.43-40.58c-1.72-2.97-6.01-2.97-7.72,0Z" style="fill: url(#uuid-62dda8e7-97f1-4aea-b8f8-7ce3819582a4);"/>
+      </g>
+    </g>
+  </g>
+</svg>

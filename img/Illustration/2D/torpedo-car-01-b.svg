@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-de781d1f-9a45-434e-8128-f49ba7ca2e9e" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.77 226.77">
+  <g>
+    <circle cx="53.89" cy="217.54" r="7.59" style="fill: none; stroke: #5f5f60; stroke-miterlimit: 10; stroke-width: 3.2px;"/>
+    <circle cx="53.89" cy="217.54" r="7.59" style="fill: #a7a7a6;"/>
+    <circle cx="53.89" cy="217.54" r="2.84" style="fill: #606060;"/>
+  </g>
+  <g>
+    <circle cx="30.54" cy="217.58" r="7.59" style="fill: none; stroke: #5f5f60; stroke-miterlimit: 10; stroke-width: 3.2px;"/>
+    <circle cx="30.54" cy="217.58" r="7.59" style="fill: #a7a7a6;"/>
+    <circle cx="30.54" cy="217.58" r="2.84" style="fill: #606060;"/>
+  </g>
+  <g>
+    <circle cx="155.06" cy="217.54" r="7.59" style="fill: none; stroke: #5f5f60; stroke-miterlimit: 10; stroke-width: 3.2px;"/>
+    <circle cx="155.06" cy="217.54" r="7.59" style="fill: #a7a7a6;"/>
+    <circle cx="155.06" cy="217.54" r="2.84" style="fill: #606060;"/>
+  </g>
+  <g>
+    <circle cx="132.26" cy="217.58" r="7.59" style="fill: none; stroke: #5f5f60; stroke-miterlimit: 10; stroke-width: 3.2px;"/>
+    <circle cx="132.26" cy="217.58" r="7.59" style="fill: #a7a7a6;"/>
+    <circle cx="132.26" cy="217.58" r="2.84" style="fill: #606060;"/>
+  </g>
+  <g>
+    <circle cx="200.65" cy="217.54" r="7.59" style="fill: none; stroke: #5f5f60; stroke-miterlimit: 10; stroke-width: 3.2px;"/>
+    <circle cx="200.65" cy="217.54" r="7.59" style="fill: #a7a7a6;"/>
+    <circle cx="200.65" cy="217.54" r="2.84" style="fill: #606060;"/>
+  </g>
+  <g>
+    <circle cx="177.86" cy="217.58" r="7.59" style="fill: none; stroke: #5f5f60; stroke-miterlimit: 10; stroke-width: 3.2px;"/>
+    <circle cx="177.86" cy="217.58" r="7.59" style="fill: #a7a7a6;"/>
+    <circle cx="177.86" cy="217.58" r="2.84" style="fill: #606060;"/>
+  </g>
+  <rect x="190.93" y="151.47" width="24.06" height="55.19" style="fill: #eaa925;"/>
+  <rect x="35.04" y="179.6" width="5.15" height="10.97" style="fill: none; stroke: #d49122; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.74px;"/>
+  <rect x="35.04" y="179.6" width="5.15" height="10.97" style="fill: #eaa925;"/>
+  <rect x="156.9" y="179.6" width="5.15" height="10.97" style="fill: none; stroke: #d49122; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.74px;"/>
+  <rect x="156.9" y="179.6" width="5.15" height="10.97" style="fill: #eaa925;"/>
+  <g>
+    <rect x="69.57" y="164.21" width="53.22" height="42.46" style="fill: none; stroke: #7c7c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3.2px;"/>
+    <polygon points="122.79 206.67 156.9 192.94 156.83 177.37 122.79 164.21 122.79 206.67" style="fill: none; stroke: #7c7c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3.2px;"/>
+    <polygon points="69.57 206.67 40.19 193.22 40.19 177.65 69.57 164.21 69.57 206.67" style="fill: none; stroke: #7c7c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3.2px;"/>
+  </g>
+  <polygon points="156.62 177.04 122.58 163.88 69.35 163.88 39.97 177.32 39.97 192.89 69.35 206.34 122.58 206.34 156.68 192.61 156.62 177.04" style="fill: #a7a7a6;"/>
+  <ellipse cx="96.18" cy="163.86" rx="20.44" ry="1.61" style="fill: none; stroke: #7c7c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.74px;"/>
+  <ellipse cx="96.18" cy="163.86" rx="20.44" ry="1.61" style="fill: #949394;"/>
+  <rect x="190.93" y="151.47" width="24.06" height="55.19" style="fill: none; stroke: #d49122; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.74px;"/>
+  <rect x="202.99" y="156.36" width="7.61" height="17.12" style="fill: none; stroke: #c7c6c6; stroke-miterlimit: 10; stroke-width: 2.14px;"/>
+  <g>
+    <rect x="202.99" y="156.36" width="7.61" height="17.12" style="fill: #ddd;"/>
+    <polygon points="210.6 169.54 210.6 171.89 202.99 159.26 202.99 156.63 210.6 169.54" style="fill: #f2f2f2;"/>
+    <polygon points="210.6 164.92 210.6 168.58 203.36 156.36 205.64 156.36 210.6 164.92" style="fill: #f2f2f2;"/>
+  </g>
+  <g>
+    <g>
+      <rect x="218.73" y="184.97" width="1.65" height="21.7" style="fill: none; stroke: #7f7f7f; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.37px;"/>
+      <rect x="209.45" y="184.97" width="1.65" height="21.7" style="fill: none; stroke: #7f7f7f; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.37px;"/>
+      <rect x="207.58" y="173.9" width="1.65" height="23.78" transform="translate(394.2 -22.62) rotate(90)" style="fill: none; stroke: #7f7f7f; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.37px;"/>
+      <rect x="196.52" y="184.97" width="1.65" height="21.7" style="fill: none; stroke: #7f7f7f; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.37px;"/>
+    </g>
+    <g>
+      <rect x="218.73" y="184.97" width="1.65" height="21.7" style="fill: #b5b5b5;"/>
+      <rect x="209.45" y="184.97" width="1.65" height="21.7" style="fill: #b5b5b5;"/>
+      <rect x="207.58" y="173.9" width="1.65" height="23.78" transform="translate(394.2 -22.62) rotate(90)" style="fill: #b5b5b5;"/>
+      <rect x="196.52" y="184.97" width="1.65" height="21.7" style="fill: #b5b5b5;"/>
+    </g>
+  </g>
+  <g>
+    <rect x="188.12" y="149.59" width="33.7" height="1.89" style="fill: none; stroke: #7c7c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.74px;"/>
+    <rect x="188.12" y="149.59" width="33.7" height="1.89" style="fill: #b5b5b5;"/>
+  </g>
+  <rect x="10.58" y="168.46" width="24.76" height="38.21" style="fill: none; stroke: #d49122; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.74px;"/>
+  <rect x="10.58" y="168.46" width="24.76" height="38.21" style="fill: #eaa925;"/>
+  <rect x="161.44" y="168.46" width="23.5" height="38.21" style="fill: none; stroke: #d49122; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.86px;"/>
+  <rect x="161.44" y="168.46" width="23.5" height="38.21" style="fill: #eaa925;"/>
+  <rect x="3.72" y="206.67" width="219.34" height="8.49" style="fill: none; stroke: #d49122; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.78px;"/>
+  <rect x="3.72" y="206.67" width="219.34" height="8.49" style="fill: #eaa925;"/>
+  <g>
+    <g>
+      <ellipse cx="96.18" cy="163.86" rx="20.44" ry="1.93" style="fill: #d93816;"/>
+      <ellipse cx="76.67" cy="167.66" rx="2.25" ry="4.27" style="fill: #d93816;"/>
+      <ellipse cx="77.75" cy="168.43" rx="1.66" ry="5.05" style="fill: #d93816;"/>
+      <ellipse cx="80.32" cy="166.5" rx="2.03" ry="3.12" style="fill: #d93816;"/>
+    </g>
+    <path d="M80.11,159.29c-.5-1.41-1.81-2.16-3.18-2.4-.47-.1-2.34-.08-2.89-.19-.39-.12-.8-.2-1.33-.43l-.12-.25c.59-1.44,2.26-2.29,3.74-1.84,2.16.68,4.52,2.64,4.06,5.11,0,0-.28,0-.28,0h0Z" style="fill: #edcd21;"/>
+    <ellipse cx="81.97" cy="156.52" rx=".81" ry=".67" transform="translate(-89.36 199.73) rotate(-76.52)" style="fill: #edcd21;"/>
+    <ellipse cx="78.05" cy="160.08" rx=".41" ry=".72" transform="translate(-87.38 94.12) rotate(-42.27)" style="fill: #edcd21;"/>
+    <g>
+      <ellipse cx="76.93" cy="167.09" rx="1.79" ry="3.11" style="fill: #e1531a;"/>
+      <ellipse cx="77.79" cy="167.66" rx="1.32" ry="3.68" style="fill: #e1531a;"/>
+      <ellipse cx="79.39" cy="166.25" rx="2.06" ry="2.27" style="fill: #e1531a;"/>
+    </g>
+    <path d="M112.95,163.96c0,.62-8.06,1.12-18.01,1.12s-18.27-.46-18.27-1.07,8.32-1.16,18.27-1.16,18.01.5,18.01,1.12Z" style="fill: #e1531a;"/>
+    <path d="M77.72,169.43s-.02,0-.03,0c-.56-.04-1.79-2.39-1.52-3.75.15-.74.78-1.53,1.07-1.59.28-.06.71.28,1.58.12.14-.03.43-.03.71.24.5.48.83,1.73.71,2.63-.04.29-.31.48-.59.45-.29-.04-.98-.63-1.1-.09-.14.66-.17,1.24-.31,1.62-.08.21-.3.37-.52.37Z" style="fill: #ec822a;"/>
+    <path d="M111.7,164.07c-5.44-.65-11.72-1.2-12-.02-.06.24.08.6.27.61,4.61.26,11.61-.37,11.73-.59Z" style="fill: #ec822a;"/>
+    <ellipse cx="101.87" cy="164.06" rx="4.45" ry=".71" style="fill: #f3c473;"/>
+    <path d="M79.42,165.13c-.18-.48-.65-.62-1.03-.6-.15,0-.62-.03-.8-.03-.41,0-.74.61-.74,1.36s.33,1.36.74,1.36c.37,0,.67-.48.73-1.12.22.19.49.27.74.18.38-.15.54-.66.36-1.14Z" style="fill: #f3c473;"/>
+    <ellipse cx="79.97" cy="164.1" rx="2.73" ry=".39" style="fill: #ec822a;"/>
+  </g>
+  <polygon points="184.98 205.3 174.68 205.35 184.94 168.46 184.98 205.3" style="fill: #d49122;"/>
+  <g>
+    <rect x="191.72" y="186.62" width="23.27" height="2.53" style="fill: #d49122;"/>
+    <rect x="186.77" y="195.6" width="16.98" height="2.53" transform="translate(392.12 1.61) rotate(90)" style="fill: #d49122;"/>
+    <rect x="198.66" y="195.6" width="16.98" height="2.53" transform="translate(404.01 -10.28) rotate(90)" style="fill: #d49122;"/>
+  </g>
+  <polygon points="35.69 205.65 25.39 205.7 35.65 168.81 35.69 205.65" style="fill: #d49122;"/>
+  <polygon points="156.65 185.87 124.67 195.82 65.26 196.56 39.97 185.44 39.97 193.13 66.75 205.15 125.54 205.15 156.68 192.61 156.65 185.87" style="fill: #8e8e8e;"/>
+</svg>

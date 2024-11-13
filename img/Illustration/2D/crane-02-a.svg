@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-6cc04145-e5bd-49a5-9e80-70c1fd5e86c3" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.77 226.77">
+  <polygon points="100.46 211.53 92.75 211.53 93.24 28.05 100.46 28.05 100.46 211.53" style="fill: #fff; stroke: #999; stroke-miterlimit: 10; stroke-width: 2.91px;"/>
+  <rect x="163.52" y="77.78" width="40.04" height="3.86" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="168.74" y="54.6" width="31.23" height="23.18" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="177.41" y="89.37" width="7.64" height="122.16" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="100.46" y="156" width="76.95" height="7.73" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="100.46" y="203.8" width="76.95" height="7.73" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <polygon points="104.58 225.32 91.99 225.32 92.82 211.53 103.75 211.53 104.58 225.32" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <polygon points="185.88 225.32 173.28 225.32 174.11 211.53 185.04 211.53 185.88 225.32" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="136.39" y="77.26" width="3.74" height="138.65" transform="translate(-58.62 103.67) rotate(-34.38)" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="15.92" y="56.35" width="89.91" height="3.74" transform="translate(-22.84 48.88) rotate(-37.35)" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="130.98" y="13.27" width="3.74" height="89.91" transform="translate(5.95 128.49) rotate(-52.64)" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="213.91" y="62.73" width="11.26" height="18.91" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="1.61" y="81.64" width="223.56" height="7.73" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="-2.27" y="111.81" width="50.24" height="2.91" transform="translate(-91.96 100.18) rotate(-72.09)" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="36.2" y="88.34" width="2.91" height="49.86" transform="translate(-30.63 15.37) rotate(-16.51)" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <path d="M24.02,133.13c-6.61-1.38-13.09,2.86-14.48,9.47h0c-1.38,6.61,2.86,13.09,9.47,14.48l5.87,1.23,5-23.95-5.87-1.23Z" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <path d="M34.65,133.23l-4.77,1.13,5.62,23.81,4.77-1.13c6.57-1.55,10.65-8.14,9.09-14.72h0c-1.55-6.57-8.14-10.65-14.72-9.09Z" style="fill: #fff; stroke: #999; stroke-linejoin: round; stroke-width: 2.91px;"/>
+  <rect x="163.52" y="77.78" width="40.04" height="3.86" style="fill: #fff;"/>
+  <rect x="168.74" y="54.6" width="31.23" height="23.18" style="fill: #fff;"/>
+  <polygon points="100.46 211.53 92.75 211.53 93.24 28.05 100.46 28.05 100.46 211.53" style="fill: #fff;"/>
+  <rect x="177.41" y="89.37" width="7.64" height="122.16" style="fill: #fff;"/>
+  <rect x="100.46" y="156" width="76.95" height="7.73" style="fill: #fff;"/>
+  <rect x="100.46" y="203.8" width="76.95" height="7.73" style="fill: #fff;"/>
+  <polygon points="104.58 225.32 91.99 225.32 92.82 211.53 103.75 211.53 104.58 225.32" style="fill: #fff;"/>
+  <polygon points="185.88 225.32 173.28 225.32 174.11 211.53 185.04 211.53 185.88 225.32" style="fill: #fff;"/>
+  <rect x="136.39" y="77.26" width="3.74" height="138.65" transform="translate(-58.62 103.67) rotate(-34.38)" style="fill: #fff;"/>
+  <rect x="15.92" y="56.35" width="89.91" height="3.74" transform="translate(-22.84 48.88) rotate(-37.35)" style="fill: #fff;"/>
+  <rect x="130.98" y="13.27" width="3.74" height="89.91" transform="translate(5.95 128.49) rotate(-52.64)" style="fill: #fff;"/>
+  <rect x="213.91" y="62.73" width="11.26" height="18.91" style="fill: #cd3933;"/>
+  <rect x="1.61" y="81.64" width="223.56" height="7.73" style="fill: #fff;"/>
+  <g>
+    <rect x="1.61" y="81.64" width="25.95" height="7.73" style="fill: #cd3933;"/>
+    <rect x="51" y="81.64" width="25.95" height="7.73" style="fill: #cd3933;"/>
+    <rect x="100.4" y="81.64" width="25.95" height="7.73" style="fill: #cd3933;"/>
+    <rect x="149.8" y="81.64" width="25.95" height="7.73" style="fill: #cd3933;"/>
+    <rect x="199.2" y="81.64" width="25.95" height="7.73" style="fill: #cd3933;"/>
+  </g>
+  <g>
+    <rect x="93.22" y="28.05" width="7.3" height="20.24" style="fill: #cd3933;"/>
+    <rect x="93.11" y="66.58" width="7.41" height="20.24" style="fill: #cd3933;"/>
+    <rect x="93" y="105.11" width="7.51" height="20.24" style="fill: #cd3933;"/>
+    <rect x="92.9" y="143.64" width="7.62" height="20.24" style="fill: #cd3933;"/>
+    <rect x="92.79" y="182.17" width="7.73" height="20.24" style="fill: #cd3933;"/>
+  </g>
+  <g>
+    <rect x="177.41" y="89.37" width="7.68" height="20.76" style="fill: #cd3933;"/>
+    <rect x="177.38" y="136.2" width="7.7" height="20.07" style="fill: #cd3933;"/>
+    <rect x="177.36" y="183.04" width="7.73" height="19.38" style="fill: #cd3933;"/>
+  </g>
+  <rect x="-2.27" y="111.81" width="50.24" height="2.91" transform="translate(-91.96 100.18) rotate(-72.09)" style="fill: #fff;"/>
+  <rect x="36.2" y="88.34" width="2.91" height="49.86" transform="translate(-30.63 15.37) rotate(-16.51)" style="fill: #fff;"/>
+  <path d="M24.02,133.13c-6.61-1.38-13.09,2.86-14.48,9.47h0c-1.38,6.61,2.86,13.09,9.47,14.48l5.87,1.23,5-23.95-5.87-1.23Z" style="fill: #fff;"/>
+  <path d="M34.65,133.23l-4.77,1.13,5.62,23.81,4.77-1.13c6.57-1.55,10.65-8.14,9.09-14.72h0c-1.55-6.57-8.14-10.65-14.72-9.09Z" style="fill: #fff;"/>
+</svg>

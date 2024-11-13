@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-a680f810-c675-4ec2-92c8-647e54c2f2eb" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.73 226.77">
+  <g>
+    <rect x="53.36" y="108.92" width="31.05" height="16.16" style="fill: none; stroke: #999; stroke-miterlimit: 10; stroke-width: 3.76px;"/>
+    <rect x="53.36" y="71.83" width="3.37" height="37.09" style="fill: none; stroke: #999; stroke-miterlimit: 10; stroke-width: 3.76px;"/>
+    <rect x="81.03" y="71.83" width="3.37" height="37.09" style="fill: none; stroke: #999; stroke-miterlimit: 10; stroke-width: 3.76px;"/>
+  </g>
+  <rect x="38.51" y="200.57" width="60.88" height="8.73" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <polygon points="100.38 224.89 86.14 224.89 87.08 209.3 99.44 209.3 100.38 224.89" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <polygon points="51.76 224.89 37.51 224.89 38.45 209.3 50.82 209.3 51.76 224.89" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <rect x="30.29" y="31.99" width="81.16" height="26.11" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.29px;"/>
+  <rect x="30.29" y="31.99" width="81.16" height="26.11" style="fill: #e3e2e2;"/>
+  <rect x="25.87" y="58.1" width="89.98" height="4.37" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <rect x="38.51" y="146.53" width="60.88" height="8.73" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <rect x="12.59" y="62.38" width="116.56" height="8.73" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <rect x="25.87" y="58.1" width="89.98" height="4.37" style="fill: #fff;"/>
+  <rect x="38.51" y="146.53" width="60.88" height="8.73" style="fill: #fff;"/>
+  <rect x="12.59" y="62.38" width="116.56" height="8.73" style="fill: #fff;"/>
+  <polygon points="47.08 209.3 38.37 209.3 38.78 58.01 47.08 58.01 47.08 209.3" style="fill: #fff;"/>
+  <polygon points="99.39 209.3 90.67 209.3 90.9 58.01 99.39 58.01 99.39 209.3" style="fill: #fff;"/>
+  <rect x="51.11" y="38.91" width="35.67" height="16.92" style="fill: none; stroke: #a33434; stroke-linejoin: round; stroke-width: 3.29px;"/>
+  <rect x="51.11" y="38.91" width="35.67" height="16.92" style="fill: #cd3933;"/>
+  <line x1="28.04" y1="57.41" x2="111.44" y2="57.41" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 1.41px;"/>
+  <line x1="24.45" y1="61.66" x2="116.76" y2="61.66" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 1.41px;"/>
+  <polygon points="47.08 209.3 38.37 209.3 38.93 1.88 47.08 1.88 47.08 209.3" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <polygon points="99.39 209.3 90.67 209.3 91.23 1.88 99.39 1.88 99.39 209.3" style="fill: none; stroke: #999; stroke-linejoin: round; stroke-width: 3.76px;"/>
+  <polygon points="47.08 209.3 38.37 209.3 38.93 1.88 47.08 1.88 47.08 209.3" style="fill: #fff;"/>
+  <polygon points="99.39 209.3 90.67 209.3 91.23 1.88 99.39 1.88 99.39 209.3" style="fill: #fff;"/>
+  <rect x="38.51" y="200.57" width="60.88" height="8.73" style="fill: #fff;"/>
+  <polygon points="51.76 224.89 37.51 224.89 38.45 209.3 50.82 209.3 51.76 224.89" style="fill: #fff;"/>
+  <polygon points="100.38 224.89 86.14 224.89 87.08 209.3 99.44 209.3 100.38 224.89" style="fill: #fff;"/>
+  <rect x="53.42" y="109.29" width="31.05" height="16.16" style="fill: #fff;"/>
+  <rect x="81.1" y="72.2" width="3.37" height="37.09" style="fill: #fff;"/>
+  <rect x="53.42" y="72.2" width="3.37" height="37.09" style="fill: #fff;"/>
+</svg>

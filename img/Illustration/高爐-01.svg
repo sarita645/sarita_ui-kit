@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="uuid-ecc2daeb-1790-476c-94ba-1c984059dda6" data-name="未命名漸層 248" x1="28.66" y1="82.4" x2="68.95" y2="82.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0e0e0"/>
+      <stop offset="0" stop-color="#e0e0e0"/>
+      <stop offset="1" stop-color="#a9a9a8"/>
+    </linearGradient>
+    <linearGradient id="uuid-f5218bd5-27fa-46ef-a71f-32444b846233" x1="68.97" y1="75.63" x2="69.38" y2="75.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a484f"/>
+      <stop offset=".18" stop-color="#4a484f"/>
+      <stop offset=".59" stop-color="#5b5960"/>
+      <stop offset=".6" stop-color="#5c5b62"/>
+      <stop offset=".69" stop-color="#5e5d64"/>
+      <stop offset=".8" stop-color="#5c5b62"/>
+      <stop offset=".81" stop-color="#5b5960"/>
+      <stop offset=".95" stop-color="#55535a"/>
+      <stop offset="1" stop-color="#514f56"/>
+    </linearGradient>
+    <linearGradient id="uuid-86c98c6a-49b5-4754-b297-3bf7aededadf" data-name="未命名漸層 248" x1="19.21" y1="49.97" x2="69.5" y2="49.97" xlink:href="#uuid-ecc2daeb-1790-476c-94ba-1c984059dda6"/>
+    <linearGradient id="uuid-b5b47f34-e413-490a-a721-b7c105d3d669" data-name="未命名漸層 248" x1="27.28" y1="47.7" x2="66.35" y2="47.04" xlink:href="#uuid-ecc2daeb-1790-476c-94ba-1c984059dda6"/>
+    <linearGradient id="uuid-8035311f-73b3-4407-8d43-a976cb6fcdcd" data-name="未命名漸層 279" x1="46.02" y1="34.27" x2="45.09" y2="75.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#df5d38"/>
+      <stop offset="1" stop-color="#f8df80"/>
+    </linearGradient>
+  </defs>
+  <g style="isolation: isolate;">
+    <g id="uuid-0e6272b3-2ba3-4143-871f-aa7c0422bcac" data-name="圖層 1">
+      <g>
+        <ellipse cx="59.99" cy="81.85" rx="26.74" ry="9.1" style="fill: #afafaf; mix-blend-mode: multiply; opacity: .5;"/>
+        <g>
+          <path d="M68.95,76.11l-2.24,5.04c-1.69,4.97-8.92,8.7-17.6,8.7-4.37,0-8.37-.95-11.49-2.52-3.11-1.57-5.33-3.78-6.15-6.29l-2.82-6.09h2.66s27.25.15,27.25.15h1.64s.45,7.74.45,7.74c3.9-1.59,6.86-3.95,8.29-6.73Z" style="fill: url(#uuid-ecc2daeb-1790-476c-94ba-1c984059dda6);"/>
+          <path d="M60.22,75.1l.45,7.74c-3.31,1.35-7.29,2.14-11.58,2.14-10.02,0-18.37-4.29-20.37-10.03-.3-.85-.45-1.73-.45-2.63,0-.8.12-1.59.35-2.34h0c.96-3.13,3.82-5.86,7.82-7.71,3.51-1.63,7.89-2.6,12.63-2.6,3.09,0,6.02.41,8.66,1.15.57.15,1.12.33,1.66.52l.52,8.83.29,4.94Z" style="fill: #9b9b9b;"/>
+          <path d="M69.38,75.18c-.11.31-.25.61-.4.91l.4-.91Z" style="fill: url(#uuid-f5218bd5-27fa-46ef-a71f-32444b846233);"/>
+          <path d="M69.61,70.19c-.03-.11-.07-.21-.1-.32l-7.19-52.76-5.1,6.6,2.2,37.63s0,0,0,0l.52,8.83.29,4.94.45,7.74c3.9-1.59,6.86-3.95,8.29-6.73.01-.01.01-.02.02-.03l.4-.91s0-.02.01-.03c.34-.91.52-1.86.52-2.83,0-.73-.1-1.44-.3-2.13Z" style="fill: url(#uuid-86c98c6a-49b5-4754-b297-3bf7aededadf);"/>
+          <path d="M59.41,61.33l.52,8.83h-1.64s-27.73,7.94-27.73,7.94c0,0-1.25-.79-1.9-3.15-.72-2.63-.25-4.9-.25-4.9l7.44-52.95h26.46l7.29,53.08c-1.06-3.79-4.9-7.02-10.2-8.86Z" style="fill: url(#uuid-b5b47f34-e413-490a-a721-b7c105d3d669);"/>
+          <ellipse cx="49.09" cy="17.1" rx="13.23" ry="8.05" style="fill: #e0e0e0;"/>
+          <ellipse cx="49.09" cy="17.1" rx="10.85" ry="6.6" style="fill: #a9a9a8;"/>
+          <path d="M58.92,80.95c-2.85,1.11-6.42,1.51-10.11,1.45-10.09-.17-17.45-4.98-17.64-8.96-.15-3.14,8.42-53.18,8.42-53.18.85-1.68,4.78-2.96,9.5-2.96s8.65,1.28,9.5,2.96c-.76.84-1.82,1.57-3.08,2.13l2.33,40.17,1.07,18.39Z" style="fill: url(#uuid-8035311f-73b3-4407-8d43-a976cb6fcdcd);"/>
+          <polygon points="60.67 82.84 58.92 80.95 58.58 75.1 58.29 70.15 57.75 60.81 55.51 22.4 57.22 23.7 59.41 61.33 59.93 70.16 60.22 75.1 60.67 82.84" style="fill: #d1d1d1;"/>
+          <polygon points="39.58 20.27 37.88 21.38 30.57 78.1 33.3 77.32 39.58 20.27" style="fill: #a9a9a8;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
