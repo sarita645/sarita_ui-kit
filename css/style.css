@@ -1274,6 +1274,12 @@ td {
   background-color: #212121;
 }
 
+.nav-color {
+  background-color: #19456B;
+  width: 30px;
+  height: 40px;
+}
+
 .color-container {
   display: flex;
   flex-direction: column;
@@ -1309,6 +1315,12 @@ td {
 .color-container .swatch-row-box .color-code {
   font-size: 14px;
   color: #333;
+}
+
+.ex-nav-color {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .btn {
@@ -1430,6 +1442,15 @@ td {
 .container .row {
   gap: 16px 0;
   align-items: flex-end;
+}
+
+.navbar-container {
+  width: 100%;
+}
+.navbar-container .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 body {

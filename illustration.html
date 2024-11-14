@@ -11,100 +11,49 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script>
+    // 加載並插入 navbar
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+        highlightCurrentPage(); // 加載完成後執行 active 樣式
+      });
 
+    // 判斷當前頁面並設置 active 樣式
+    function highlightCurrentPage() {
+      const currentPath = window.location.pathname.split('/').pop(); // 獲取當前頁面的檔名
+
+      // 處理一般的 navbar 連結
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      navLinks.forEach(link => {
+        const linkHref = link.getAttribute('href');
+        if (linkHref === currentPath) {
+          link.classList.add('active'); // 設置 active 樣式
+        } else {
+          link.classList.remove('active');
+        }
+      });
+
+      // 處理 dropdown-item 連結
+      const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
+      dropdownItems.forEach(item => {
+        const itemHref = item.getAttribute('href');
+        if (itemHref === currentPath) {
+          item.classList.add('active'); // 設置 active 樣式
+        } else {
+          item.classList.remove('active');
+        }
+      });
+    }
+  </script>
   <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body class="index home">
 
-  <nav class="navbar" aria-label="offcanvas navbar">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
-        aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">UI KID</a>
-
-      <div class="offcanvas offcanvas-start text-bg" tabindex="-1" id="offcanvasNavbarDark"
-        aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <button type="button" class="btn-close btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link " href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="txt.html">TXT 文字樣式與留白</a>
-            </li>
-
-            <!-- 
-            <li class="nav-item"><a class="nav-link" href="color.html">Color</a></li> -->
-
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Color
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="color.html">通用</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item " href="color_w1.html">color_w1</a></li>
-              </ul>
-            </li>
-
-
-
-
-
-
-
-
-            <li class="nav-item"><a class="nav-link" href="button.html">Button</a></li>
-            <li class="nav-item"><a class="nav-link" href="corner.html">Corner</a></li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                補充
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="layout.html">Layout</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-
-
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                素材
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="icon.html">Icon</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="illustration.html">Illustration</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </nav>
+  <div id="navbar-container"></div>
 
 
   <header class="header">
@@ -120,132 +69,132 @@
 
 
       <div class="col-sm-2 ">
-        <img src="/img/Illustration/2D/01.svg" alt="">
+        <img src="./img/Illustration/2D/01.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/02.svg" alt="">
+        <img src="./img/Illustration/2D/02.svg" alt="">
       </div>
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/03.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/04.svg" alt="">
+        <img src="./img/Illustration/2D/03.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/05.svg" alt="">
+        <img src="./img/Illustration/2D/04.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/06.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/blast-furnace-01-a.svg" alt="">
+        <img src="./img/Illustration/2D/05.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/blast-furnace-01-b.svg" alt="">
+        <img src="./img/Illustration/2D/06.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/crane-01-a.svg" alt="">
+        <img src="./img/Illustration/2D/blast-furnace-01-a.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/blast-furnace-01-b.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/crane-01-b.svg" alt="">
+        <img src="./img/Illustration/2D/crane-01-a.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/crane-02-a.svg" alt="">
+        <img src="./img/Illustration/2D/crane-01-b.svg" alt="">
       </div>
 
 
-
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/crane-02-b.svg" alt="">
+        <img src="./img/Illustration/2D/crane-02-a.svg" alt="">
       </div>
 
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/scr-01-a.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/torpedo-car-01-a.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/torpedo-car-01-b.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/transporter-01-a.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/transporter-01-b.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/transporter-01-c.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/transporter-01-d.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/boat-01-a.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/04915476.svg" alt="">
+        <img src="./img/Illustration/2D/crane-02-b.svg" alt="">
       </div>
 
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/20006790.svg" alt="">
+        <img src="./img/Illustration/2D/scr-01-a.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/torpedo-car-01-a.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/torpedo-car-01-b.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/transporter-01-a.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/transporter-01-b.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/transporter-01-c.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/transporter-01-d.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/boat-01-a.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/04915476.svg" alt="">
       </div>
 
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/92957714.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/21551523.svg" alt="">
-      </div>
-
-
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/41534927.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/2D/44390515.svg" alt="">
+        <img src="./img/Illustration/2D/20006790.svg" alt="">
       </div>
 
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/2D/46594497.svg" alt="">
+        <img src="./img/Illustration/2D/92957714.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/21551523.svg" alt="">
+      </div>
+
+
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/41534927.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/44390515.svg" alt="">
+      </div>
+
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/2D/46594497.svg" alt="">
       </div>
 
 
@@ -288,140 +237,140 @@
     <div class="row">
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/堆渣.svg" alt="">
+        <img src="./img/Illustration/堆渣.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/石灰窯-01.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/堆置場-01.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/堆置場-局部-01.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/取料機.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/卸船機.svg" alt="">
+        <img src="./img/Illustration/石灰窯-01.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/建築物-01.svg" alt="">
-      </div>
-
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/建築物-02.svg" alt="">
+        <img src="./img/Illustration/堆置場-01.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/推渣車 -02.svg" alt="">
+        <img src="./img/Illustration/堆置場-局部-01.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/取料機.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/卸船機.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/建築物-01.svg" alt="">
       </div>
 
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/推渣車.svg" alt="">
+        <img src="./img/Illustration/建築物-02.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/焚化廠-01.svg" alt="">
-      </div>
-      <div class="col-sm-2">
-        <img src="/img/Illustration/焚化廠-02.svg" alt="">
+        <img src="./img/Illustration/推渣車 -02.svg" alt="">
       </div>
 
 
 
-
-
-
       <div class="col-sm-2">
-        <img src="/img/Illustration/料堆-煤-01.svg" alt="">
-      </div>
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/料堆-煤-02.svg" alt="">
+        <img src="./img/Illustration/推渣車.svg" alt="">
       </div>
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/料堆-石灰-01.svg" alt="">
+        <img src="./img/Illustration/焚化廠-01.svg" alt="">
       </div>
-
-
       <div class="col-sm-2">
-        <img src="/img/Illustration/料堆-石灰-02.svg" alt="">
+        <img src="./img/Illustration/焚化廠-02.svg" alt="">
       </div>
 
 
 
 
 
+
       <div class="col-sm-2">
-        <img src="/img/Illustration/料堆-鐵-01.svg" alt="">
+        <img src="./img/Illustration/料堆-煤-01.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/料堆-鐵-02.svg" alt="">
+        <img src="./img/Illustration/料堆-煤-02.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/料堆-石灰-01.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/煉焦場-01.svg" alt="">
-      </div>
-
-
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/燒結場-01.svg" alt="">
+        <img src="./img/Illustration/料堆-石灰-02.svg" alt="">
       </div>
 
 
 
 
+
       <div class="col-sm-2">
-        <img src="/img/Illustration/船.svg" alt="">
+        <img src="./img/Illustration/料堆-鐵-01.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/轉爐-01.svg" alt="">
+        <img src="./img/Illustration/料堆-鐵-02.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/轉爐-02.svg" alt="">
-      </div>
-
-      <div class="col-sm-2">
-        <img src="/img/Illustration/轉爐-03.svg" alt="">
+        <img src="./img/Illustration/煉焦場-01.svg" alt="">
       </div>
 
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/轉爐-04.svg" alt="">
+        <img src="./img/Illustration/燒結場-01.svg" alt="">
+      </div>
+
+
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/船.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/高爐-01.svg" alt="">
+        <img src="./img/Illustration/轉爐-01.svg" alt="">
       </div>
 
 
       <div class="col-sm-2">
-        <img src="/img/Illustration/魚雷車-01.svg" alt="">
+        <img src="./img/Illustration/轉爐-02.svg" alt="">
+      </div>
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/轉爐-03.svg" alt="">
+      </div>
+
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/轉爐-04.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/高爐-01.svg" alt="">
+      </div>
+
+
+      <div class="col-sm-2">
+        <img src="./img/Illustration/魚雷車-01.svg" alt="">
       </div>
 
 
