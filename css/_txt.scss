@@ -19,9 +19,6 @@ $white-color: #FFFFFF; // 定義白色字體
   font-size: $font-size;
   font-weight: $font-weight;
   padding: $padding;
-  // display: $display;
-  // align-items: $align-items;
-  // justify-content: $justify-content;
   margin: $margin;
   line-height: $line-height;
   font-family: $font-family;
@@ -195,60 +192,15 @@ $line-height: 1.5;
 
 
 
-//-----------------------------------
-
-
-// %heading {
-//   margin-top: 0; // 1
-//   margin-bottom: $headings-margin-bottom;
-//   font-family: $headings-font-family;
-//   font-style: $headings-font-style;
-//   font-weight: $headings-font-weight;
-//   line-height: $headings-line-height;
-//   color: var(--#{$prefix}heading-color);
-// }
-
-// h1 {
-//   @extend %heading;
-//   font-size: 3rem; // 修改為 3em
-// }
-
-// h2 {
-//   @extend %heading;
-//   font-size: 2rem; // 修改為 2rem
-// }
-
-// h3 {
-//   @extend %heading;
-//   font-size: 1.8rem; // 修改為 1.8rem
-// }
-
-// h4 {
-//   @extend %heading;
-//   font-size: 1.3rem; // 修改為 1.3rem
-// }
-
-// h5 {
-//   @extend %heading;
-//   font-size: 1rem; // 修改為 1rem
-// }
-
-// h6 {
-//   @extend %heading;
-//   font-size: 0.5rem; // 修改為 0.5rem
-// }
 
 
 
 
 
 
+//------------------------標題樣式
 
-
-
-
-//------------------------樣式
-
+//標題-H1、H2 適用 
 .title-01 {
   padding: 64px 0 16px 0;
 
@@ -266,7 +218,7 @@ $line-height: 1.5;
 
 
 
-
+//標題 H3 適用
 .title-02 {
   padding: 40px 0 16px 0;
   display: flex;
@@ -288,10 +240,18 @@ $line-height: 1.5;
 }
 
 
-
+//標題 H4、5 適用
 .title-03 {
+  padding: 40px 0 16px 0;
+}
+
+//標題 H6、7.... 適用
+
+.title-04 {
   padding: 24px 0 16px 0;
 }
+
+
 
 
 

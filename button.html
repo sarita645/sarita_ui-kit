@@ -19,6 +19,7 @@
 
 <body class="index home">
 
+
   <nav class="navbar" aria-label="offcanvas navbar">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
@@ -39,17 +40,53 @@
               <a class="nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="txt.html">TXT 文字樣式與留白</a>
+              <a class="nav-link" href="txt.html">TXT 文字樣式與留白</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="color.html">Color</a>
+
+            <!-- 
+            <li class="nav-item"><a class="nav-link" href="color.html">Color</a></li> -->
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Color
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="color.html">通用</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item " href="color_w1.html">color_w1</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link  active" href="button.html">Button</a>
+
+
+
+
+
+
+
+
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="button.html">Button</a></li>
+            <li class="nav-item"><a class="nav-link" href="corner.html">Corner</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                補充
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="layout.html">Layout</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="corner.html">Corner</a>
-            </li>
+
+
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -72,6 +109,8 @@
   </nav>
 
 
+
+
   <header class="header">
     <p>Button 按鈕</p>
   </header>
@@ -80,11 +119,44 @@
 
 
   <!-- 範例 -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <p class="h4-B title-02">關於按鈕</p>
+        <p class="h5-N title-03">【使用方法】</p>
+        <p class="h5-N">
+          按鈕通常會有”最小尺寸”的限制，已設定基本的尺寸。<br>
+          一致性： 同一個專案中的按鈕樣式應保持一致，避免混淆使用者。<br>
+          清晰可見： 按鈕的樣式應清晰可見，易於辨認。</p>
+        <br>
+        <p class="h5-N title-03">
+          【顏色區分】
+        </p>
+
+        <p class="h5-N"> 主要呼叫動作： 使用對比度高、飽和度高的顏色，例如紅色、綠色或藍色，讓使用者一眼就能注意到。<br>
+          次要動作： 使用較柔和的顏色，例如灰色或淺藍色，表示相對次要的功能。<br>
+          危險動作： 使用紅色等具有警示意味的顏色，提醒使用者操作的風險。</p>
+        <br>
+        <p class="h5-N title-03">【形狀區分】</p>
+        <p class="h5-N">
+          一般按鈕： 常用矩形或圓角矩形。<br>
+          特殊功能按鈕： 可以使用圓形、橢圓形或不規則形狀，增加視覺辨識度。
+        </p>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
   <div class="container">
 
     <div class="row">
       <div class=" title-02">
-        <p class="txt-16-B">顏色使用與按鈕顏色和用法範例</p>
+        <p class="txt-16-B">範例</p>
 
       </div>
       <div class="col-xl-8   txt-12">
@@ -102,122 +174,24 @@
 
           <tbody>
             <tr>
-              <td>Blue</td>
+              <td>範例</td>
               <td>
                 <div>
-                  <button class="btn-blue-style01 btn">範例按鈕</button>
+                  <button class="btn-style01 btn">按鈕</button>
                 </div>
               </td>
               <td>
                 <div>
-                  <button class="btn-blue-style02 btn">範例按鈕</button>
+                  <button class="btn-style02 btn">按鈕</button>
                 </div>
               </td>
               <td>
                 <div>
-                  <button class="btn-blue-style03 btn">範例按鈕</button>
-                </div>
-              </td>
-            </tr>
-
-            <tr>
-              <td>Blue</td>
-              <td>
-                <div>
-                  <button class="btn-lightblue-style01 btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-lightblue-style02 btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-lightblue-style03 btn">範例按鈕</button>
+                  <button class="btn-style03 btn">按鈕</button>
                 </div>
               </td>
             </tr>
 
-
-            <tr>
-              <td>Blue</td>
-              <td>
-                <div>
-                  <button class="btn-blue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-darkblue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-cyan btn">範例按鈕</button>
-                </div>
-              </td>
-            </tr>
-
-
-            <tr>
-              <td>Blue</td>
-              <td>
-                <div>
-                  <button class="btn-blue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-darkblue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-cyan btn">範例按鈕</button>
-                </div>
-              </td>
-            </tr>
-
-
-            <tr>
-              <td>Blue</td>
-              <td>
-                <div>
-                  <button class="btn-blue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-darkblue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-cyan btn">範例按鈕</button>
-                </div>
-              </td>
-            </tr>
-
-
-            <tr>
-              <td>Blue</td>
-              <td>
-                <div>
-                  <button class="btn-blue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-darkblue btn">範例按鈕</button>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <button class="btn-cyan btn">範例按鈕</button>
-                </div>
-              </td>
-            </tr>
 
 
 
@@ -237,6 +211,24 @@
     </div>
   </div>
 
+
+  <div class="container">
+    <div class="row">
+      <div class=" title-02">
+        <p class="txt-16-B">使用範例</p>
+
+
+
+      </div>
+      <div class="col-sm-12">
+        <img class="img-fluid" src="./img/img-01.png" alt="">
+
+      </div>
+
+    </div>
+
+
+  </div>
 
 
 

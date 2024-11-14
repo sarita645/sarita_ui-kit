@@ -254,6 +254,10 @@
 }
 
 .title-03 {
+  padding: 40px 0 16px 0;
+}
+
+.title-04 {
   padding: 24px 0 16px 0;
 }
 
@@ -1308,140 +1312,63 @@ td {
 }
 
 .btn {
-  padding: 8px 24px;
+  padding: 2px 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: clamp(0.6rem, 2vw, 1rem);
   cursor: pointer;
-  margin-bottom: 10px;
   transition: background-color 0.3s ease;
   /* 平滑過渡 */
 }
 
-.btn-blue-style01 {
-  background-color: #235BAC;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
+.btn-style01 {
+  background-color: #1558c0;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+.btn-style01:hover {
+  background-color: #1e79e5;
+  color: #FFFFFF;
+  border-color: transparent;
+}
+.btn-style01:active, .btn-check:checked + .btn-style01, .btn-style01.active, .btn-style01.show, .btn-style01:first-child:active, .btn-style01:not(.btn-check) + .btn-style01:active {
+  background-color: #ff7043;
+  color: #FFFFFF;
+  border-color: #fdd835;
 }
 
-.btn-blue-style01:hover {
-  background-color: #5B8AC8;
-  /* hover: Blue-500 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
+.btn-style02 {
+  background-color: #1558c0;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+.btn-style02:hover {
+  background-color: #FFFFFF;
+  color: #1558c0;
+  border-color: transparent;
+  border: 1px solid #1558c0;
+}
+.btn-style02:active, .btn-check:checked + .btn-style02, .btn-style02.active, .btn-style02.show, .btn-style02:first-child:active, .btn-style02:not(.btn-check) + .btn-style02:active {
+  background-color: #1e79e5;
+  color: #FFFFFF;
+  border-color: #1558c0;
 }
 
-.btn-blue-style01:active {
-  background-color: #113F82;
-  /* active: Blue-1000 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
+.btn-style03 {
+  background-color: #FFFFFF;
+  color: #1558c0;
+  border: 1px solid #1558c0;
 }
-
-.btn-blue-style02 {
-  background-color: #235BAC;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
+.btn-style03:hover {
+  background-color: #f5f5f5;
+  color: #1558c0;
+  border-color: transparent;
+  border: 1px solid #1558c0;
 }
-
-.btn-blue-style02:hover {
-  background-color: #ffffff;
-  /* hover: Blue-500 */
-  color: #235BAC;
-  border: 1px solid #235BAC;
-}
-
-.btn-blue-style02:active {
-  background-color: #E8EFFA;
-  /* hover: Blue-500 */
-  color: #235BAC;
-  border: 1px solid #235BAC;
-}
-
-.btn-blue-style03 {
-  background-color: #ffffff;
-  /* hover: Blue-500 */
-  color: #235BAC;
-  border: 1px solid #235BAC;
-}
-
-.btn-blue-style03:hover {
-  background-color: #E8EFFA;
-  /* hover: Blue-500 */
-  color: #235BAC;
-  border: 1px solid #235BAC;
-}
-
-.btn-blue-style03:active {
-  background-color: #235BAC;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
-}
-
-.btn-lightblue-style01 {
-  background-color: #1499DF;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
-}
-
-.btn-lightblue-style01:hover {
-  background-color: #58B6E7;
-  /* hover: Blue-500 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
-}
-
-.btn-lightblue-style01:active {
-  background-color: #0B6C9E;
-  /* active: Blue-1000 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
-}
-
-.btn-lightblue-style02 {
-  background-color: #58B6E7;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
-}
-
-.btn-lightblue-style02:hover {
-  background-color: #ffffff;
-  /* hover: Blue-500 */
-  color: #58B6E7;
-  border: 1px solid #58B6E7;
-}
-
-.btn-lightblue-style02:active {
-  background-color: #E0EFF6;
-  /* hover: Blue-500 */
-  color: #0B6C9E;
-  border: 1px solid #0B6C9E;
-}
-
-.btn-lightblue-style03 {
-  background-color: #ffffff;
-  /* hover: Blue-500 */
-  color: #58B6E7;
-  border: 1px solid #58B6E7;
-}
-
-.btn-lightblue-style03:hover {
-  background-color: #E0EFF6;
-  /* hover: Blue-500 */
-  color: #0B6C9E;
-  border: 1px solid #0B6C9E;
-}
-
-.btn-lightblue-style03:active {
-  background-color: #58B6E7;
-  /* default: Blue-700 */
-  color: #ffffff;
-  border: 1px solid rgba(35, 92, 172, 0);
+.btn-style03:active, .btn-check:checked + .btn-style03, .btn-style03.active, .btn-style03.show, .btn-style03:first-child:active, .btn-style03:not(.btn-check) + .btn-style03:active {
+  background-color: #1e79e5;
+  color: #FFFFFF;
+  border-color: #1558c0;
 }
 
 .corners-box {
