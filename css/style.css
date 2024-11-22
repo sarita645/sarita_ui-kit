@@ -1323,14 +1323,8 @@ td {
   gap: 30px;
 }
 
-.btn {
-  padding: 2px 12px;
-  border: none;
-  border-radius: 8px;
-  font-size: clamp(0.6rem, 2vw, 1rem);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  /* 平滑過渡 */
+.w11-no-signal {
+  background-color: #BDB9A5;
 }
 
 .btn-style01 {

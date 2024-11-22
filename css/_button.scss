@@ -1,13 +1,5 @@
-.btn {
-  padding: 2px 12px;
-  border: none;
-  border-radius: 8px;
-  font-size: clamp(0.6rem, 2vw, 1rem);
-  cursor: pointer;
-  // margin-bottom: 10px;
-  transition: background-color 0.3s ease;
-  /* 平滑過渡 */
-}
+//-----------------------按鈕基本款式(寬高)
+
 
 
 
@@ -98,3 +90,8 @@
     border-color: $blue-800;
   }
 }
+
+
+
+
+//-----------------------------

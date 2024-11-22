@@ -60,7 +60,9 @@
 
   <link rel="stylesheet" href="./css/style.css">
 
-  <style></style>
+  <style>
+
+  </style>
 </head>
 
 <body class="page">
@@ -87,7 +89,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-12  title-02">
+      <div class="col  title-02">
         <span>
           組成方式
         </span>
@@ -96,54 +98,105 @@
 
 
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col">
         <p class="txt-16">
           <a href="https://getbootstrap.com/docs/5.3/layout/grid/" target="_blank">bootstrap
           </a>網格為12列，會因應斷點效果自動排列。
         </p>
-        <p class="txt-16">
-          <br>
-          --bs-breakpoint-xs: 0; <br>
-          --bs-breakpoint-sm: 576px; <br>
-          --bs-breakpoint-md: 768px; <br>
-          --bs-breakpoint-lg: 992px; <br>
-          --bs-breakpoint-xl: 1200px; <br>
-          --bs-breakpoint-xxl: 1400px;
-        </p>
+
+
+
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-xl-8">
+        <table>
+          <thead>
+            <tr>
+              <th>斷點名稱</th>
+              <th>類型</th>
+              <th>最小寬度</th>
+              <th>示例用途</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xs</td>
+              <td>Extra Small</td>
+              <td>&lt;576px</td>
+              <td>手機 (預設，不需要前綴)</td>
+            </tr>
+            <tr>
+              <td>sm</td>
+              <td>Small</td>
+              <td>&ge;576px</td>
+              <td>手機橫屏或小型平板</td>
+            </tr>
+            <tr>
+              <td>md</td>
+              <td>Medium</td>
+              <td>&ge;768px</td>
+              <td>平板或小型筆記本</td>
+            </tr>
+            <tr>
+              <td>lg</td>
+              <td>Large</td>
+              <td>&ge;992px</td>
+              <td>筆記本或桌面顯示器</td>
+            </tr>
+            <tr>
+              <td>xl</td>
+              <td>Extra Large</td>
+              <td>&ge;1200px</td>
+              <td>大型桌面顯示器</td>
+            </tr>
+            <tr>
+              <td>xxl</td>
+              <td>XXL</td>
+              <td>&ge;1400px</td>
+              <td>超大顯示器</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <p class="col h5-N">
+          --bs-breakpoint-xs: 0;<br>
+          --bs-breakpoint-sm: 576px;<br>
+          --bs-breakpoint-md: 768px;<br>
+          --bs-breakpoint-lg: 992px;<br>
+          --bs-breakpoint-xl: 1200px;<br>
+          --bs-breakpoint-xxl: 1400px;</p>
       </div>
 
-
     </div>
+
+
+
 
 
     <div class="row">
-
-
-      <div class="row">
-        <div class="col-sm-12 title-02">
-          <span>
-            範例
-          </span>
-        </div>
+      <div class="col-12 title-02">
+        <span>
+          範例
+        </span>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <img class="img-fluid" src="./img/範例-layout.png" alt="">
-          <img class=" img-fluid" src="./img/irasutoy/mark_koujichu.png" alt="">
-
-        </div>
-
-
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="./img/範例-layout.png" alt="">
+        <img class=" img-fluid" src="./img/irasutoy/mark_koujichu.png" alt="">
 
       </div>
-
-
-
 
 
 
     </div>
+
+
 
 
 
@@ -153,6 +206,11 @@
 
 
   </div>
+
+
+
+
+
 
 
   </div>
