@@ -12,7 +12,7 @@ td {
 
 .color-box {
   width: 4rem;
-  height: 4rem;
+  height: 2rem;
   margin: 0 auto;
   border-radius: 6px;
 }
@@ -291,7 +291,7 @@ $white: #FFFFFF;
 $black: #212121;
 $nav-color: #19456B;
 
-//-------------
+//----------------------------------------
 .red-50 {
   background-color: $red-50;
 }
@@ -1454,4 +1454,16 @@ $w11-no-signal: #BDB9A5;
 
 .w11-no-signal {
   background-color: $w11-no-signal;
+}
+
+
+
+//----------
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  height: 300px;
 }

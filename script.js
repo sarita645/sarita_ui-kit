@@ -28,3 +28,18 @@
 
 
 
+    document.addEventListener('DOMContentLoaded', () => {
+      const copyButton = document.getElementById('copyButton'); // 確保按鈕正確選取
+      const textArea = document.getElementById('textArea'); // 確保文字框也正確選取
+
+      copyButton.addEventListener('click', () => {
+        const text = textArea.value; // 確保有內容可供複製
+        navigator.clipboard.writeText(text).then(() => {
+          console.log('文字已複製：', text);
+        }).catch(err => {
+          console.error('複製失敗：', err);
+        });
+      });
+    });
+
+
