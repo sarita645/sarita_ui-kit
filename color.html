@@ -90,21 +90,21 @@
         <p class="h5-N">請確保整個網站/介面的設計一致性，並統一配色方案，讓使用者能夠清楚地認識到顏色在傳達訊息中的作用，例如它們的含義和功能。</p>
         <p class="h5-N">應用範圍很廣，PPT、文件、網站、資料呈現...都可以使用。</p>
         <br>
-        <p class="h5-N">淺色背景：white </p>
-        <p class="h5-N">深色背景：black</p>
+        <p class="h5-N">淺色背景：--white </p>
+        <p class="h5-N">深色背景：--black</p>
       </div>
     </div>
 
     <div class="row">
 
-      <dir class="col-sm-12 ex-nav-color">
+      <div class="col-sm-12 ex-nav-color">
         <div class=" title-02">
           <p class="h5-B ">nav 導覽列 底色</p>
-          <p class="h6-N">$nav-color</p>
+          <p class="h6-N"> --nav-color</p>
         </div>
         <div class="nav-color"></div>
 
-      </dir>
+      </div>
     </div>
 
   </div>
@@ -1414,7 +1414,8 @@
     <div class="row">
       <div class=" title-02">
         <p class="h5-B">所有顏色</p>
-        <p>作為背景底色可以採用 OO-50 或 OO-100 的等級，顏色比較淡。</p>
+        <p>作為背景底色可以採用 OO-50 或 OO-100 的等級，色彩明度比較淺。</p>
+        <p>但如果需要凸顯，可以用其他等級，然後搭配白色字體。</p>
 
       </div>
 
@@ -2453,8 +2454,8 @@
     <!-- 複製 css 色票 -->
     <div class="container mt-5">
       <p class="mb-3 h5-B">複製 css 色票 (使用前，記得更新)</p>
-      <p class="mb-3 h5-N">使用說明：較易變化(換色) 。貼至 .css 檔案內，放置順序為最下面。</p>
-      <p class="mb-3 h5-N">也可直接參考色碼使用。</p>
+      <p class="mb-3 h5-N">使用說明：較易變化(換色) 。貼至 .css 檔案內。</p>
+      <p class="mb-3 h5-N">也可直接使用色碼。</p>
       <div class="input-group">
         <textarea id="textArea" class="form-control" placeholder="請輸入文字..." rows="3">
           :root {
@@ -2717,53 +2718,14 @@
 
     <!-- 使用方法 -->
     <div class="container ">
-      <div class="row">
-        <div class="col-sm-12">
-          <p class="h5-B title-03">
-            方法1. 在CSS內使用(可利用定義)
-          </p>
-          <p class="h5-N">在 CSS 中，定義於 :root 中的變數可以用於任何 CSS 屬性中，並且可以在 HTML 的 class 中間接引用。</p>
-          <p class="h6-B">
-            1.定義變數 <br>
-            使用 :root 定義全域 CSS 變數：
-          </p>
-          <p class="h6-N">
-            :root { <br>
-            --red-50: #ffebee;<br>
-            --red-100: #ffcdd2;<br>
-            --red-200: #ef9a9a;<br>
-            }
-          </p>
 
-          <p class="h6-B">2.在 CSS 中使用變數</p>
-          <p class="h6-N">
-            .example { <br>
-            background-color: var(--red-100);<br>
-            color: var(--red-900);<br>
-            border: 1px solid var(--red-200); <br>
-            }
-          </p>
-          <p class="h6-B">3.在 HTML 中間接引用</p>
-          <p class="h6-N">
-            填入class名稱，class="example" 即可引用。
-          </p>
-        </div>
-
-      </div>
-      <div class="row ">
-        <div class="col-sm-12">
-          <p class="h5-B title-03">
-            方法2. 直接使用色碼
-          </p>
-          <p class="h5-N">不確定是否會在更新，可複製的css色票內有對應的色票號碼。</p>
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-sm-12 ">
-          <p class="h5-B title-03">顏色使用方法</p>
+          <p class="h5-B title-03">顏色使用方法 (圖文說明版)</p>
         </div>
         <img class="img-fluid" src="./img/img-04-顏色使用方法.png" alt="">
+        <img class="img-fluid" src="./img/img-05.png" alt="">
       </div>
     </div>
 
