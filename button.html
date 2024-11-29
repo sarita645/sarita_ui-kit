@@ -46,7 +46,16 @@
         }
       });
     }
+
+
+
   </script>
+
+
+
+
+  <script src="script.js"></script>
+
   <link rel="stylesheet" href="./css/style.css">
 
   <style></style>
@@ -101,6 +110,7 @@
   </div>
 
 
+
   <div class="container">
 
     <div class="row">
@@ -114,9 +124,9 @@
           <thead>
             <tr>
               <th></th>
-              <th>style01</th>
-              <th>style02</th>
-              <th>style03</th>
+              <th class="txt-16-B">btn-style01</th>
+              <th class="txt-16-B">btn-style02</th>
+              <th class="txt-16-B">btn-style03</th>
             </tr>
           </thead>
 
@@ -157,6 +167,74 @@
 
 
 
+    </div>
+
+    <div class="row">
+      <div class=" title-02">
+        <p class="txt-16-B">CSS樣式 (使用前記得複製，可直接帶入 class名稱)</p>
+
+      </div>
+
+      <div class="input-group">
+        <textarea id="textArea" class="form-control" placeholder="請輸入文字..." rows="3">
+
+          .btn-style01 {
+            background-color: #1558c0;
+            color: #FFFFFF;
+            border: 1px solid transparent;
+          }
+          .btn-style01:hover {
+            background-color: #1e79e5;
+            color: #FFFFFF;
+            border-color: transparent;
+          }
+          .btn-style01:active, .btn-check:checked + .btn-style01, .btn-style01.active, .btn-style01.show, .btn-style01:first-child:active, .btn-style01:not(.btn-check) + .btn-style01:active {
+            background-color: #ff7043;
+            color: #FFFFFF;
+            border-color: #fdd835;
+          }
+          
+          .btn-style02 {
+            background-color: #1558c0;
+            color: #FFFFFF;
+            border: 1px solid transparent;
+          }
+          .btn-style02:hover {
+            background-color: #FFFFFF;
+            color: #1558c0;
+            border-color: transparent;
+            border: 1px solid #1558c0;
+          }
+          .btn-style02:active, .btn-check:checked + .btn-style02, .btn-style02.active, .btn-style02.show, .btn-style02:first-child:active, .btn-style02:not(.btn-check) + .btn-style02:active {
+            background-color: #1e79e5;
+            color: #FFFFFF;
+            border-color: #1558c0;
+          }
+          
+          .btn-style03 {
+            background-color: #FFFFFF;
+            color: #1558c0;
+            border: 1px solid #1558c0;
+          }
+          .btn-style03:hover {
+            background-color: #f5f5f5;
+            color: #1558c0;
+            border-color: transparent;
+            border: 1px solid #1558c0;
+          }
+          .btn-style03:active, .btn-check:checked + .btn-style03, .btn-style03.active, .btn-style03.show, .btn-style03:first-child:active, .btn-style03:not(.btn-check) + .btn-style03:active {
+            background-color: #1e79e5;
+            color: #FFFFFF;
+            border-color: #1558c0;
+          }
+      
+      
+      
+          </textarea>
+        <button class="btn btn-primary btn-style01 " id="copyButton">
+          複製
+        </button>
+      </div>
     </div>
   </div>
 

@@ -106,6 +106,373 @@
 
     </div>
 
+    <div class="row">
+      <div class="col-sm-12  title-02">
+        <span>
+          CSS樣式 (使用方法，可直接套用class內)
+        </span>
+
+      </div>
+      <div>
+        <div class="input-group">
+          <textarea id="textArea" class="form-control" placeholder="請輸入文字..." rows="3">
+            /* 變數定義 */
+            :root {
+              --border-style: solid;
+              --border-width: 0px;
+              --padding: 0px;
+              --display: flex;
+              --align-items: center;
+              --justify-content: center;
+              --margin: 2px 0;
+              --line-height: 1.5;
+              --default-font-size: 16px;
+              --font-family: "NotoSansTc-Regular", sans-serif;
+              --color: #333333;
+              --white-color: #FFFFFF; /* 定義白色字體 */
+            }
+            
+            /* 行高 */
+            :root {
+              --line-height: 1.5;
+            }
+            
+            /* 文字樣式 */
+            .txt-8 {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 0.5rem;
+              font-weight: normal;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .txt-8-B {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 0.5rem;
+              font-weight: bold;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h7-N {
+              font-size: 0.5rem;
+              font-weight: normal;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h7-B {
+              font-size: 0.5rem;
+              font-weight: bold;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            /* 設定不同的字體大小樣式 */
+            .txt-12 {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 12px;
+              font-weight: normal;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h6-N {
+              font-size: 12px;
+              font-weight: normal;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .txt-12-B {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 12px;
+              font-weight: bold;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h6-B {
+              font-size: 12px;
+              font-weight: bold;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .txt-16 {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 1rem;
+              font-weight: normal;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h5-N {
+              font-size: 1rem;
+              font-weight: normal;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .txt-16-B {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 1rem;
+              font-weight: bold;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h5-B {
+              font-size: 1rem;
+              font-weight: bold;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            /* 更大字體 */
+            .txt-20 {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 1.25rem;
+              font-weight: normal;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h4-N {
+              font-size: 1.25rem;
+              font-weight: normal;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .txt-20-B {
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              font-size: 1.25rem;
+              font-weight: bold;
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            .h4-B {
+              font-size: 1.25rem;
+              font-weight: bold;
+              border-style: var(--border-style);
+              border-width: var(--border-width);
+              padding: var(--padding);
+              margin: var(--margin);
+              line-height: var(--line-height);
+              font-family: var(--font-family);
+              color: var(--color);
+            }
+            
+            /* 定義標題樣式 */
+            .title-01 {
+              padding: 64px 0 16px 0;
+            }
+            
+            .title-01 span {
+              font-size: 28px;
+              font-weight: bold;
+            }
+            
+            .title-01 p {
+              font-size: 16px;
+            }
+            
+            .title-02 {
+              padding: 40px 0 16px 0;
+              display: flex;
+              flex-direction: column;
+            }
+            
+            .title-02 span {
+              font-size: 20px;
+              font-weight: bold;
+              padding: 0 0 16px 0;
+            }
+            
+            .title-02 p {
+              font-size: 16px;
+              line-height: var(--line-height);
+            }
+            
+            .title-03 {
+              padding: 40px 0 16px 0;
+            }
+            
+            .title-04 {
+              padding: 24px 0 16px 0;
+            }
+            
+            .cdo {
+              font-size: 8px;
+            }
+            
+            /* 文字容器樣式 */
+            .text-container {
+              width: 100%;
+              max-height: 560px;
+              overflow-y: auto;
+              padding: 10px;
+              border: 1px solid #ccc;
+              margin-bottom: 10px;
+            }
+            
+            .txt-white {
+              color: var(--white-color);
+            }
+            
+            /* 表格樣式 */
+            .heading-table,
+            .level-table {
+              table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+              }
+            
+              th,
+              td {
+                border: 1px solid #dddddd;
+                padding: 8px;
+              }
+            }
+            
+            /* 間距容器 */
+            .spacing-container {
+              margin: 20px;
+            }
+            
+            .spacing-row {
+              display: flex;
+              align-items: center;
+              margin-bottom: 16px;
+            }
+            
+            .spacing-row span {
+              flex: 1;
+              font-size: 14px;
+              margin-right: 10px;
+            }
+            
+            .box {
+              background-color: #d3d3d3;
+            }
+            
+            .box-4 {
+              width: 4px;
+              height: 4px;
+            }
+            
+            .box-8 {
+              width: 8px;
+              height: 8px;
+            }
+            
+            .box-16 {
+              width: 16px;
+              height: 16px;
+            }
+            
+            .box-24 {
+              width: 24px;
+              height: 24px;
+            }
+            
+            .box-40 {
+              width: 40px;
+              height: 40px;
+            }
+            
+            .box-64 {
+              width: 64px;
+              height: 64px;
+            }
+            
+            .box-104 {
+              width: 104px;
+              height: 104px;
+            }
+            
+    
+    
+    
+        </textarea>
+          <button class="btn btn-primary btn-style01 " id="copyButton">
+            複製
+          </button>
+        </div>
+      </div>
+    </div>
+
+
 
     <div class="row">
 
